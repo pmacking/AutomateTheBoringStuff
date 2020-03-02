@@ -1,8 +1,31 @@
 #! python3
+
 # madlibs.pyw - reads in text files and lets the user add their own text
 # anywhere the word ADJECTIVE, NOUN, ADVERB, VERB appears in text file.
+# Usage: py.exe madlibs.pyw <file> - opens madlibs file, lets user
+#       replace words based on prompts, prints file contents and writes new
+#       file as '<file[-'.txt']>MadLibbed.txt'
+import sys, re
+import pyinputplus as pyip
 
-#TODO: create text file
-#TODO: find occurences of ADJECTIVE, NOUN, ADVERB, VERB
-#TODO: create prompt to replace ADJECTIVE, NOUN, ADVERB, VERB
-#TODO: print results to screen and save to new text file
+
+file = open(f'{sys.argv[1]}')
+text = file.read()
+file.close()
+
+regex = re.compile(r'(ADJECTIVE)|(NOUN)|(VERB)|(ADVERB)')
+
+for i in regex.findall(text):
+    print(regex.findall(text))
+    print(i)
+    for j in i:
+        if j != '':
+            reg = re.compile(r'{}'.format(j))
+            inp_text = input('Enter the substitute for %s: ' %j)
+            text = reg.sub(inp_text, text, 1)
+
+print(text)
+
+file = open(f'{sys.argv[1][:-4]}MadLibbed.txt', 'w')
+file.write(text)
+file.close()
