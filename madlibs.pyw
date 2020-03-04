@@ -7,7 +7,7 @@
 #       file as '<file[-'.txt']>MadLibbed.txt'
 
 import sys, re
-import pyinputplus as pyip
+
 
 file = open(f'{sys.argv[1]}')
 text = file.read()
