@@ -1,0 +1,573 @@
+2020-03-16 15:21:31,592 - DEBUG - START OF PROGRAM
+2020-03-16 15:21:46,372 - DEBUG - START OF PROGRAM
+2020-03-16 15:21:47,395 - DEBUG - POST http://127.0.0.1:53928/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-16 15:21:47,396 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:53928
+2020-03-16 15:21:49,232 - DEBUG - http://127.0.0.1:53928 "POST /session HTTP/1.1" 200 690
+2020-03-16 15:21:49,233 - DEBUG - Finished Request
+2020-03-16 15:21:49,234 - DEBUG - POST http://127.0.0.1:53928/session/c5e313ec82e5136fce84d7d04c2f8c83/url {"url": "https://imgur.com/"}
+2020-03-16 15:21:51,517 - DEBUG - http://127.0.0.1:53928 "POST /session/c5e313ec82e5136fce84d7d04c2f8c83/url HTTP/1.1" 200 14
+2020-03-16 15:21:51,518 - DEBUG - Finished Request
+2020-03-16 15:21:51,518 - DEBUG - POST http://127.0.0.1:53928/session/c5e313ec82e5136fce84d7d04c2f8c83/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-16 15:21:51,603 - DEBUG - http://127.0.0.1:53928 "POST /session/c5e313ec82e5136fce84d7d04c2f8c83/element HTTP/1.1" 200 88
+2020-03-16 15:21:51,604 - DEBUG - Finished Request
+2020-03-16 15:21:51,604 - DEBUG - POST http://127.0.0.1:53928/session/c5e313ec82e5136fce84d7d04c2f8c83/element/13db4514-c70c-4eec-b1be-7bc775023b39/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "13db4514-c70c-4eec-b1be-7bc775023b39"}
+2020-03-16 15:21:52,412 - DEBUG - http://127.0.0.1:53928 "POST /session/c5e313ec82e5136fce84d7d04c2f8c83/element/13db4514-c70c-4eec-b1be-7bc775023b39/value HTTP/1.1" 200 14
+2020-03-16 15:21:52,412 - DEBUG - Finished Request
+2020-03-16 15:21:52,413 - DEBUG - POST http://127.0.0.1:53928/session/c5e313ec82e5136fce84d7d04c2f8c83/element/13db4514-c70c-4eec-b1be-7bc775023b39/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "13db4514-c70c-4eec-b1be-7bc775023b39"}
+2020-03-16 15:21:52,488 - DEBUG - http://127.0.0.1:53928 "POST /session/c5e313ec82e5136fce84d7d04c2f8c83/element/13db4514-c70c-4eec-b1be-7bc775023b39/element HTTP/1.1" 200 88
+2020-03-16 15:21:52,488 - DEBUG - Finished Request
+2020-03-16 15:21:52,488 - DEBUG - POST http://127.0.0.1:53928/session/c5e313ec82e5136fce84d7d04c2f8c83/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "a4f1099a-472a-4ade-b93f-e44cd298a134", "element-6066-11e4-a52e-4f735466cecf": "a4f1099a-472a-4ade-b93f-e44cd298a134"}]}
+2020-03-16 15:21:53,705 - DEBUG - http://127.0.0.1:53928 "POST /session/c5e313ec82e5136fce84d7d04c2f8c83/execute/sync HTTP/1.1" 200 14
+2020-03-16 15:21:53,705 - DEBUG - Finished Request
+2020-03-16 15:21:53,706 - DEBUG - END OF PROGRAM
+2020-03-16 15:32:07,895 - DEBUG - START OF PROGRAM
+2020-03-16 15:32:08,918 - DEBUG - POST http://127.0.0.1:58886/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-16 15:32:08,919 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:58886
+2020-03-16 15:32:10,491 - DEBUG - http://127.0.0.1:58886 "POST /session HTTP/1.1" 200 690
+2020-03-16 15:32:10,492 - DEBUG - Finished Request
+2020-03-16 15:32:10,492 - DEBUG - POST http://127.0.0.1:58886/session/75e5746b3840a45b6ce9c3eb747de7b0/url {"url": "https://imgur.com/"}
+2020-03-16 15:32:12,910 - DEBUG - http://127.0.0.1:58886 "POST /session/75e5746b3840a45b6ce9c3eb747de7b0/url HTTP/1.1" 200 14
+2020-03-16 15:32:12,911 - DEBUG - Finished Request
+2020-03-16 15:32:12,911 - DEBUG - POST http://127.0.0.1:58886/session/75e5746b3840a45b6ce9c3eb747de7b0/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-16 15:32:13,072 - DEBUG - http://127.0.0.1:58886 "POST /session/75e5746b3840a45b6ce9c3eb747de7b0/element HTTP/1.1" 200 88
+2020-03-16 15:32:13,072 - DEBUG - Finished Request
+2020-03-16 15:32:13,073 - DEBUG - POST http://127.0.0.1:58886/session/75e5746b3840a45b6ce9c3eb747de7b0/element/73badae6-696e-44b4-812e-32675b574674/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "73badae6-696e-44b4-812e-32675b574674"}
+2020-03-16 15:32:13,767 - DEBUG - http://127.0.0.1:58886 "POST /session/75e5746b3840a45b6ce9c3eb747de7b0/element/73badae6-696e-44b4-812e-32675b574674/value HTTP/1.1" 200 14
+2020-03-16 15:32:13,768 - DEBUG - Finished Request
+2020-03-16 15:32:13,768 - DEBUG - POST http://127.0.0.1:58886/session/75e5746b3840a45b6ce9c3eb747de7b0/element/73badae6-696e-44b4-812e-32675b574674/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "73badae6-696e-44b4-812e-32675b574674"}
+2020-03-16 15:32:13,782 - DEBUG - http://127.0.0.1:58886 "POST /session/75e5746b3840a45b6ce9c3eb747de7b0/element/73badae6-696e-44b4-812e-32675b574674/element HTTP/1.1" 200 88
+2020-03-16 15:32:13,782 - DEBUG - Finished Request
+2020-03-16 15:32:13,782 - DEBUG - POST http://127.0.0.1:58886/session/75e5746b3840a45b6ce9c3eb747de7b0/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "b91c41c3-ce13-43e3-a033-a092a4aed86e", "element-6066-11e4-a52e-4f735466cecf": "b91c41c3-ce13-43e3-a033-a092a4aed86e"}]}
+2020-03-16 15:32:14,722 - DEBUG - http://127.0.0.1:58886 "POST /session/75e5746b3840a45b6ce9c3eb747de7b0/execute/sync HTTP/1.1" 200 14
+2020-03-16 15:32:14,723 - DEBUG - Finished Request
+2020-03-16 15:32:14,723 - DEBUG - POST http://127.0.0.1:58886/session/75e5746b3840a45b6ce9c3eb747de7b0/elements {"using": "css selector", "value": ".image-list-link"}
+2020-03-16 15:32:14,874 - DEBUG - http://127.0.0.1:58886 "POST /session/75e5746b3840a45b6ce9c3eb747de7b0/elements HTTP/1.1" 200 1038
+2020-03-16 15:32:14,874 - DEBUG - Finished Request
+2020-03-16 15:36:11,629 - DEBUG - START OF PROGRAM
+2020-03-16 15:36:12,646 - DEBUG - POST http://127.0.0.1:60610/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-16 15:36:12,647 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:60610
+2020-03-16 15:36:13,845 - DEBUG - http://127.0.0.1:60610 "POST /session HTTP/1.1" 200 690
+2020-03-16 15:36:13,845 - DEBUG - Finished Request
+2020-03-16 15:36:13,846 - DEBUG - POST http://127.0.0.1:60610/session/414adddd52a9cb34b9b1ee9ab90466c8/url {"url": "https://imgur.com/"}
+2020-03-16 15:36:15,706 - DEBUG - http://127.0.0.1:60610 "POST /session/414adddd52a9cb34b9b1ee9ab90466c8/url HTTP/1.1" 200 14
+2020-03-16 15:36:15,707 - DEBUG - Finished Request
+2020-03-16 15:36:15,707 - DEBUG - POST http://127.0.0.1:60610/session/414adddd52a9cb34b9b1ee9ab90466c8/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-16 15:36:16,038 - DEBUG - http://127.0.0.1:60610 "POST /session/414adddd52a9cb34b9b1ee9ab90466c8/element HTTP/1.1" 200 88
+2020-03-16 15:36:16,039 - DEBUG - Finished Request
+2020-03-16 15:36:16,039 - DEBUG - POST http://127.0.0.1:60610/session/414adddd52a9cb34b9b1ee9ab90466c8/element/f17b3778-194b-480f-b631-a735a07269a2/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "f17b3778-194b-480f-b631-a735a07269a2"}
+2020-03-16 15:36:16,567 - DEBUG - http://127.0.0.1:60610 "POST /session/414adddd52a9cb34b9b1ee9ab90466c8/element/f17b3778-194b-480f-b631-a735a07269a2/value HTTP/1.1" 200 14
+2020-03-16 15:36:16,568 - DEBUG - Finished Request
+2020-03-16 15:36:16,568 - DEBUG - POST http://127.0.0.1:60610/session/414adddd52a9cb34b9b1ee9ab90466c8/element/f17b3778-194b-480f-b631-a735a07269a2/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "f17b3778-194b-480f-b631-a735a07269a2"}
+2020-03-16 15:36:16,581 - DEBUG - http://127.0.0.1:60610 "POST /session/414adddd52a9cb34b9b1ee9ab90466c8/element/f17b3778-194b-480f-b631-a735a07269a2/element HTTP/1.1" 200 88
+2020-03-16 15:36:16,581 - DEBUG - Finished Request
+2020-03-16 15:36:16,582 - DEBUG - POST http://127.0.0.1:60610/session/414adddd52a9cb34b9b1ee9ab90466c8/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "0605681a-ee94-425f-ace6-bd2722bb6d16", "element-6066-11e4-a52e-4f735466cecf": "0605681a-ee94-425f-ace6-bd2722bb6d16"}]}
+2020-03-16 15:36:17,529 - DEBUG - http://127.0.0.1:60610 "POST /session/414adddd52a9cb34b9b1ee9ab90466c8/execute/sync HTTP/1.1" 200 14
+2020-03-16 15:36:17,529 - DEBUG - Finished Request
+2020-03-16 15:36:17,530 - DEBUG - POST http://127.0.0.1:60610/session/414adddd52a9cb34b9b1ee9ab90466c8/elements {"using": "css selector", "value": ".post"}
+2020-03-16 15:36:17,889 - DEBUG - http://127.0.0.1:60610 "POST /session/414adddd52a9cb34b9b1ee9ab90466c8/elements HTTP/1.1" 200 1038
+2020-03-16 15:36:17,889 - DEBUG - Finished Request
+2020-03-16 15:42:56,271 - DEBUG - START OF PROGRAM
+2020-03-16 15:42:57,288 - DEBUG - POST http://127.0.0.1:62293/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-16 15:42:57,289 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:62293
+2020-03-16 15:42:58,556 - DEBUG - http://127.0.0.1:62293 "POST /session HTTP/1.1" 200 690
+2020-03-16 15:42:58,556 - DEBUG - Finished Request
+2020-03-16 15:42:58,557 - DEBUG - POST http://127.0.0.1:62293/session/227b7281fa5ee8629bf763d338a1d441/url {"url": "https://imgur.com/"}
+2020-03-16 15:43:00,614 - DEBUG - http://127.0.0.1:62293 "POST /session/227b7281fa5ee8629bf763d338a1d441/url HTTP/1.1" 200 14
+2020-03-16 15:43:00,614 - DEBUG - Finished Request
+2020-03-16 15:43:00,615 - DEBUG - POST http://127.0.0.1:62293/session/227b7281fa5ee8629bf763d338a1d441/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-16 15:43:00,723 - DEBUG - http://127.0.0.1:62293 "POST /session/227b7281fa5ee8629bf763d338a1d441/element HTTP/1.1" 200 88
+2020-03-16 15:43:00,723 - DEBUG - Finished Request
+2020-03-16 15:43:00,724 - DEBUG - POST http://127.0.0.1:62293/session/227b7281fa5ee8629bf763d338a1d441/element/7d7407ae-d811-46e0-bad5-845e7995b5fa/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "7d7407ae-d811-46e0-bad5-845e7995b5fa"}
+2020-03-16 15:43:01,336 - DEBUG - http://127.0.0.1:62293 "POST /session/227b7281fa5ee8629bf763d338a1d441/element/7d7407ae-d811-46e0-bad5-845e7995b5fa/value HTTP/1.1" 200 14
+2020-03-16 15:43:01,337 - DEBUG - Finished Request
+2020-03-16 15:43:01,337 - DEBUG - POST http://127.0.0.1:62293/session/227b7281fa5ee8629bf763d338a1d441/element/7d7407ae-d811-46e0-bad5-845e7995b5fa/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "7d7407ae-d811-46e0-bad5-845e7995b5fa"}
+2020-03-16 15:43:01,354 - DEBUG - http://127.0.0.1:62293 "POST /session/227b7281fa5ee8629bf763d338a1d441/element/7d7407ae-d811-46e0-bad5-845e7995b5fa/element HTTP/1.1" 200 88
+2020-03-16 15:43:01,355 - DEBUG - Finished Request
+2020-03-16 15:43:01,355 - DEBUG - POST http://127.0.0.1:62293/session/227b7281fa5ee8629bf763d338a1d441/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "0b13249b-ba91-4c00-af2c-f8d05b80aff6", "element-6066-11e4-a52e-4f735466cecf": "0b13249b-ba91-4c00-af2c-f8d05b80aff6"}]}
+2020-03-16 15:43:02,189 - DEBUG - http://127.0.0.1:62293 "POST /session/227b7281fa5ee8629bf763d338a1d441/execute/sync HTTP/1.1" 200 14
+2020-03-16 15:43:02,190 - DEBUG - Finished Request
+2020-03-16 15:43:02,190 - DEBUG - POST http://127.0.0.1:62293/session/227b7281fa5ee8629bf763d338a1d441/elements {"using": "css selector", "value": ".post"}
+2020-03-16 15:43:02,383 - DEBUG - http://127.0.0.1:62293 "POST /session/227b7281fa5ee8629bf763d338a1d441/elements HTTP/1.1" 200 1038
+2020-03-16 15:43:02,383 - DEBUG - Finished Request
+2020-03-16 15:43:02,383 - DEBUG - END OF PROGRAM
+2020-03-17 05:50:32,132 - DEBUG - START OF PROGRAM
+2020-03-17 05:50:33,148 - DEBUG - POST http://127.0.0.1:57618/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-17 05:50:33,149 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:57618
+2020-03-17 05:50:34,744 - DEBUG - http://127.0.0.1:57618 "POST /session HTTP/1.1" 200 690
+2020-03-17 05:50:34,745 - DEBUG - Finished Request
+2020-03-17 05:50:34,745 - DEBUG - POST http://127.0.0.1:57618/session/8e7d56e9a9c321e10999e084ef2cfc5c/url {"url": "https://imgur.com/"}
+2020-03-17 05:50:36,844 - DEBUG - http://127.0.0.1:57618 "POST /session/8e7d56e9a9c321e10999e084ef2cfc5c/url HTTP/1.1" 200 14
+2020-03-17 05:50:36,845 - DEBUG - Finished Request
+2020-03-17 05:50:36,845 - DEBUG - POST http://127.0.0.1:57618/session/8e7d56e9a9c321e10999e084ef2cfc5c/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-17 05:50:36,976 - DEBUG - http://127.0.0.1:57618 "POST /session/8e7d56e9a9c321e10999e084ef2cfc5c/element HTTP/1.1" 200 88
+2020-03-17 05:50:36,976 - DEBUG - Finished Request
+2020-03-17 05:50:36,977 - DEBUG - POST http://127.0.0.1:57618/session/8e7d56e9a9c321e10999e084ef2cfc5c/element/13ccc693-7b20-4f7a-a47b-256e0d459b8e/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "13ccc693-7b20-4f7a-a47b-256e0d459b8e"}
+2020-03-17 05:50:37,653 - DEBUG - http://127.0.0.1:57618 "POST /session/8e7d56e9a9c321e10999e084ef2cfc5c/element/13ccc693-7b20-4f7a-a47b-256e0d459b8e/value HTTP/1.1" 200 14
+2020-03-17 05:50:37,655 - DEBUG - Finished Request
+2020-03-17 05:50:37,655 - DEBUG - POST http://127.0.0.1:57618/session/8e7d56e9a9c321e10999e084ef2cfc5c/element/13ccc693-7b20-4f7a-a47b-256e0d459b8e/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "13ccc693-7b20-4f7a-a47b-256e0d459b8e"}
+2020-03-17 05:50:37,695 - DEBUG - http://127.0.0.1:57618 "POST /session/8e7d56e9a9c321e10999e084ef2cfc5c/element/13ccc693-7b20-4f7a-a47b-256e0d459b8e/element HTTP/1.1" 200 88
+2020-03-17 05:50:37,695 - DEBUG - Finished Request
+2020-03-17 05:50:37,695 - DEBUG - POST http://127.0.0.1:57618/session/8e7d56e9a9c321e10999e084ef2cfc5c/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "c5296579-21fb-45ee-85a7-8074c3683066", "element-6066-11e4-a52e-4f735466cecf": "c5296579-21fb-45ee-85a7-8074c3683066"}]}
+2020-03-17 05:50:38,662 - DEBUG - http://127.0.0.1:57618 "POST /session/8e7d56e9a9c321e10999e084ef2cfc5c/execute/sync HTTP/1.1" 200 14
+2020-03-17 05:50:38,662 - DEBUG - Finished Request
+2020-03-17 05:50:38,662 - DEBUG - POST http://127.0.0.1:57618/session/8e7d56e9a9c321e10999e084ef2cfc5c/elements {"using": "css selector", "value": ".post"}
+2020-03-17 05:50:38,734 - DEBUG - http://127.0.0.1:57618 "POST /session/8e7d56e9a9c321e10999e084ef2cfc5c/elements HTTP/1.1" 200 1038
+2020-03-17 05:50:38,735 - DEBUG - Finished Request
+2020-03-17 05:50:38,735 - DEBUG - END OF PROGRAM
+2020-03-17 06:04:11,889 - DEBUG - START OF PROGRAM
+2020-03-17 06:04:11,890 - DEBUG - Opening imgur.com and searching: butterfly kisses
+2020-03-17 06:04:12,904 - DEBUG - POST http://127.0.0.1:57689/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-17 06:04:12,907 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:57689
+2020-03-17 06:04:14,132 - DEBUG - http://127.0.0.1:57689 "POST /session HTTP/1.1" 200 690
+2020-03-17 06:04:14,133 - DEBUG - Finished Request
+2020-03-17 06:04:14,134 - DEBUG - POST http://127.0.0.1:57689/session/57be76e97b1776e524e1800952f4e77a/url {"url": "https://imgur.com/"}
+2020-03-17 06:04:16,041 - DEBUG - http://127.0.0.1:57689 "POST /session/57be76e97b1776e524e1800952f4e77a/url HTTP/1.1" 200 14
+2020-03-17 06:04:16,041 - DEBUG - Finished Request
+2020-03-17 06:04:16,042 - DEBUG - POST http://127.0.0.1:57689/session/57be76e97b1776e524e1800952f4e77a/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-17 06:04:16,108 - DEBUG - http://127.0.0.1:57689 "POST /session/57be76e97b1776e524e1800952f4e77a/element HTTP/1.1" 200 88
+2020-03-17 06:04:16,109 - DEBUG - Finished Request
+2020-03-17 06:04:16,109 - DEBUG - POST http://127.0.0.1:57689/session/57be76e97b1776e524e1800952f4e77a/element/87e793e3-7af0-4e0f-bb56-e88b8df6b0c3/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "87e793e3-7af0-4e0f-bb56-e88b8df6b0c3"}
+2020-03-17 06:04:16,661 - DEBUG - http://127.0.0.1:57689 "POST /session/57be76e97b1776e524e1800952f4e77a/element/87e793e3-7af0-4e0f-bb56-e88b8df6b0c3/value HTTP/1.1" 200 14
+2020-03-17 06:04:16,662 - DEBUG - Finished Request
+2020-03-17 06:04:16,662 - DEBUG - POST http://127.0.0.1:57689/session/57be76e97b1776e524e1800952f4e77a/element/87e793e3-7af0-4e0f-bb56-e88b8df6b0c3/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "87e793e3-7af0-4e0f-bb56-e88b8df6b0c3"}
+2020-03-17 06:04:16,687 - DEBUG - http://127.0.0.1:57689 "POST /session/57be76e97b1776e524e1800952f4e77a/element/87e793e3-7af0-4e0f-bb56-e88b8df6b0c3/element HTTP/1.1" 200 88
+2020-03-17 06:04:16,687 - DEBUG - Finished Request
+2020-03-17 06:04:16,687 - DEBUG - POST http://127.0.0.1:57689/session/57be76e97b1776e524e1800952f4e77a/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "214d9904-3a8f-4953-a5e0-24911fa3a63a", "element-6066-11e4-a52e-4f735466cecf": "214d9904-3a8f-4953-a5e0-24911fa3a63a"}]}
+2020-03-17 06:04:17,759 - DEBUG - http://127.0.0.1:57689 "POST /session/57be76e97b1776e524e1800952f4e77a/execute/sync HTTP/1.1" 200 14
+2020-03-17 06:04:17,760 - DEBUG - Finished Request
+2020-03-17 06:04:17,760 - DEBUG - GET http://127.0.0.1:57689/session/57be76e97b1776e524e1800952f4e77a/url {}
+2020-03-17 06:04:17,902 - DEBUG - http://127.0.0.1:57689 "GET /session/57be76e97b1776e524e1800952f4e77a/url HTTP/1.1" 200 57
+2020-03-17 06:04:17,902 - DEBUG - Finished Request
+2020-03-17 06:04:17,949 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 06:04:18,234 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 06:04:18,393 - DEBUG - Length of soup: 3
+2020-03-17 06:04:18,394 - DEBUG - END OF PROGRAM
+2020-03-17 06:36:47,322 - DEBUG - START OF PROGRAM
+2020-03-17 06:36:47,323 - DEBUG - Opening imgur.com and searching: butterfly kisses
+2020-03-17 06:36:48,332 - DEBUG - POST http://127.0.0.1:65286/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-17 06:36:48,333 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:65286
+2020-03-17 06:36:49,511 - DEBUG - http://127.0.0.1:65286 "POST /session HTTP/1.1" 200 690
+2020-03-17 06:36:49,512 - DEBUG - Finished Request
+2020-03-17 06:36:49,512 - DEBUG - POST http://127.0.0.1:65286/session/f881fdaa6a76dfa58125f42456acb7af/url {"url": "https://imgur.com/"}
+2020-03-17 06:36:51,483 - DEBUG - http://127.0.0.1:65286 "POST /session/f881fdaa6a76dfa58125f42456acb7af/url HTTP/1.1" 200 14
+2020-03-17 06:36:51,484 - DEBUG - Finished Request
+2020-03-17 06:36:51,484 - DEBUG - POST http://127.0.0.1:65286/session/f881fdaa6a76dfa58125f42456acb7af/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-17 06:36:51,635 - DEBUG - http://127.0.0.1:65286 "POST /session/f881fdaa6a76dfa58125f42456acb7af/element HTTP/1.1" 200 88
+2020-03-17 06:36:51,635 - DEBUG - Finished Request
+2020-03-17 06:36:51,636 - DEBUG - POST http://127.0.0.1:65286/session/f881fdaa6a76dfa58125f42456acb7af/element/c04fb072-9340-403a-a29a-ddabcbdc4fed/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "c04fb072-9340-403a-a29a-ddabcbdc4fed"}
+2020-03-17 06:36:52,326 - DEBUG - http://127.0.0.1:65286 "POST /session/f881fdaa6a76dfa58125f42456acb7af/element/c04fb072-9340-403a-a29a-ddabcbdc4fed/value HTTP/1.1" 200 14
+2020-03-17 06:36:52,326 - DEBUG - Finished Request
+2020-03-17 06:36:52,327 - DEBUG - POST http://127.0.0.1:65286/session/f881fdaa6a76dfa58125f42456acb7af/element/c04fb072-9340-403a-a29a-ddabcbdc4fed/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "c04fb072-9340-403a-a29a-ddabcbdc4fed"}
+2020-03-17 06:36:52,346 - DEBUG - http://127.0.0.1:65286 "POST /session/f881fdaa6a76dfa58125f42456acb7af/element/c04fb072-9340-403a-a29a-ddabcbdc4fed/element HTTP/1.1" 200 88
+2020-03-17 06:36:52,347 - DEBUG - Finished Request
+2020-03-17 06:36:52,347 - DEBUG - POST http://127.0.0.1:65286/session/f881fdaa6a76dfa58125f42456acb7af/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "6ea3f14e-96c6-4b0e-8790-d458a59abdeb", "element-6066-11e4-a52e-4f735466cecf": "6ea3f14e-96c6-4b0e-8790-d458a59abdeb"}]}
+2020-03-17 06:36:53,312 - DEBUG - http://127.0.0.1:65286 "POST /session/f881fdaa6a76dfa58125f42456acb7af/execute/sync HTTP/1.1" 200 14
+2020-03-17 06:36:53,313 - DEBUG - Finished Request
+2020-03-17 06:36:53,313 - DEBUG - GET http://127.0.0.1:65286/session/f881fdaa6a76dfa58125f42456acb7af/url {}
+2020-03-17 06:36:53,468 - DEBUG - http://127.0.0.1:65286 "GET /session/f881fdaa6a76dfa58125f42456acb7af/url HTTP/1.1" 200 57
+2020-03-17 06:36:53,469 - DEBUG - Finished Request
+2020-03-17 06:36:53,478 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 06:36:53,729 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 06:36:53,857 - DEBUG - Length of soup: 3
+2020-03-17 06:36:53,864 - DEBUG - Downloading images for: butterfly kisses
+2020-03-17 06:38:32,697 - DEBUG - START OF PROGRAM
+2020-03-17 06:38:32,697 - DEBUG - Opening imgur.com and searching: butterfly kisses
+2020-03-17 06:38:33,710 - DEBUG - POST http://127.0.0.1:65341/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-17 06:38:33,711 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:65341
+2020-03-17 06:38:34,910 - DEBUG - http://127.0.0.1:65341 "POST /session HTTP/1.1" 200 690
+2020-03-17 06:38:34,911 - DEBUG - Finished Request
+2020-03-17 06:38:34,911 - DEBUG - POST http://127.0.0.1:65341/session/2d31e8d02807884521736cc14df176c7/url {"url": "https://imgur.com/"}
+2020-03-17 06:38:36,709 - DEBUG - http://127.0.0.1:65341 "POST /session/2d31e8d02807884521736cc14df176c7/url HTTP/1.1" 200 14
+2020-03-17 06:38:36,710 - DEBUG - Finished Request
+2020-03-17 06:38:36,710 - DEBUG - POST http://127.0.0.1:65341/session/2d31e8d02807884521736cc14df176c7/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-17 06:38:37,012 - DEBUG - http://127.0.0.1:65341 "POST /session/2d31e8d02807884521736cc14df176c7/element HTTP/1.1" 200 88
+2020-03-17 06:38:37,012 - DEBUG - Finished Request
+2020-03-17 06:38:37,013 - DEBUG - POST http://127.0.0.1:65341/session/2d31e8d02807884521736cc14df176c7/element/646a8c3d-6ed1-45b8-9c3d-f6c1ae71d184/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "646a8c3d-6ed1-45b8-9c3d-f6c1ae71d184"}
+2020-03-17 06:38:37,636 - DEBUG - http://127.0.0.1:65341 "POST /session/2d31e8d02807884521736cc14df176c7/element/646a8c3d-6ed1-45b8-9c3d-f6c1ae71d184/value HTTP/1.1" 200 14
+2020-03-17 06:38:37,637 - DEBUG - Finished Request
+2020-03-17 06:38:37,638 - DEBUG - POST http://127.0.0.1:65341/session/2d31e8d02807884521736cc14df176c7/element/646a8c3d-6ed1-45b8-9c3d-f6c1ae71d184/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "646a8c3d-6ed1-45b8-9c3d-f6c1ae71d184"}
+2020-03-17 06:38:37,653 - DEBUG - http://127.0.0.1:65341 "POST /session/2d31e8d02807884521736cc14df176c7/element/646a8c3d-6ed1-45b8-9c3d-f6c1ae71d184/element HTTP/1.1" 200 88
+2020-03-17 06:38:37,654 - DEBUG - Finished Request
+2020-03-17 06:38:37,654 - DEBUG - POST http://127.0.0.1:65341/session/2d31e8d02807884521736cc14df176c7/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "56ac892f-f919-4503-bdea-ca0085234c7b", "element-6066-11e4-a52e-4f735466cecf": "56ac892f-f919-4503-bdea-ca0085234c7b"}]}
+2020-03-17 06:38:38,317 - DEBUG - http://127.0.0.1:65341 "POST /session/2d31e8d02807884521736cc14df176c7/execute/sync HTTP/1.1" 200 14
+2020-03-17 06:38:38,317 - DEBUG - Finished Request
+2020-03-17 06:38:38,317 - DEBUG - GET http://127.0.0.1:65341/session/2d31e8d02807884521736cc14df176c7/url {}
+2020-03-17 06:38:38,703 - DEBUG - http://127.0.0.1:65341 "GET /session/2d31e8d02807884521736cc14df176c7/url HTTP/1.1" 200 57
+2020-03-17 06:38:38,704 - DEBUG - Finished Request
+2020-03-17 06:38:38,714 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 06:38:38,924 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 06:38:39,079 - DEBUG - Length of soup: 3
+2020-03-17 06:38:39,092 - DEBUG - Downloading images for: butterfly kisses
+2020-03-17 14:02:12,029 - DEBUG - START OF PROGRAM
+2020-03-17 14:02:12,030 - DEBUG - Opening imgur.com and searching: butterfly kisses
+2020-03-17 14:02:13,042 - DEBUG - POST http://127.0.0.1:49463/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-17 14:02:13,043 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:49463
+2020-03-17 14:02:14,346 - DEBUG - http://127.0.0.1:49463 "POST /session HTTP/1.1" 200 690
+2020-03-17 14:02:14,347 - DEBUG - Finished Request
+2020-03-17 14:02:14,347 - DEBUG - POST http://127.0.0.1:49463/session/1e245619f79858eaeb75c5f0e0b6abb0/url {"url": "https://imgur.com/"}
+2020-03-17 14:02:16,164 - DEBUG - http://127.0.0.1:49463 "POST /session/1e245619f79858eaeb75c5f0e0b6abb0/url HTTP/1.1" 200 14
+2020-03-17 14:02:16,165 - DEBUG - Finished Request
+2020-03-17 14:02:16,165 - DEBUG - POST http://127.0.0.1:49463/session/1e245619f79858eaeb75c5f0e0b6abb0/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-17 14:02:16,277 - DEBUG - http://127.0.0.1:49463 "POST /session/1e245619f79858eaeb75c5f0e0b6abb0/element HTTP/1.1" 200 88
+2020-03-17 14:02:16,278 - DEBUG - Finished Request
+2020-03-17 14:02:16,278 - DEBUG - POST http://127.0.0.1:49463/session/1e245619f79858eaeb75c5f0e0b6abb0/element/2f640d4a-cb31-414e-b9e2-a62af462297b/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "2f640d4a-cb31-414e-b9e2-a62af462297b"}
+2020-03-17 14:02:16,784 - DEBUG - http://127.0.0.1:49463 "POST /session/1e245619f79858eaeb75c5f0e0b6abb0/element/2f640d4a-cb31-414e-b9e2-a62af462297b/value HTTP/1.1" 200 14
+2020-03-17 14:02:16,784 - DEBUG - Finished Request
+2020-03-17 14:02:16,784 - DEBUG - POST http://127.0.0.1:49463/session/1e245619f79858eaeb75c5f0e0b6abb0/element/2f640d4a-cb31-414e-b9e2-a62af462297b/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "2f640d4a-cb31-414e-b9e2-a62af462297b"}
+2020-03-17 14:02:16,801 - DEBUG - http://127.0.0.1:49463 "POST /session/1e245619f79858eaeb75c5f0e0b6abb0/element/2f640d4a-cb31-414e-b9e2-a62af462297b/element HTTP/1.1" 200 88
+2020-03-17 14:02:16,801 - DEBUG - Finished Request
+2020-03-17 14:02:16,801 - DEBUG - POST http://127.0.0.1:49463/session/1e245619f79858eaeb75c5f0e0b6abb0/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "4d095401-62f4-4f73-a2f8-8035f28c650e", "element-6066-11e4-a52e-4f735466cecf": "4d095401-62f4-4f73-a2f8-8035f28c650e"}]}
+2020-03-17 14:02:17,722 - DEBUG - http://127.0.0.1:49463 "POST /session/1e245619f79858eaeb75c5f0e0b6abb0/execute/sync HTTP/1.1" 200 14
+2020-03-17 14:02:17,723 - DEBUG - Finished Request
+2020-03-17 14:02:17,723 - DEBUG - GET http://127.0.0.1:49463/session/1e245619f79858eaeb75c5f0e0b6abb0/url {}
+2020-03-17 14:02:17,795 - DEBUG - http://127.0.0.1:49463 "GET /session/1e245619f79858eaeb75c5f0e0b6abb0/url HTTP/1.1" 200 57
+2020-03-17 14:02:17,796 - DEBUG - Finished Request
+2020-03-17 14:02:17,796 - DEBUG - GET http://127.0.0.1:49463/session/1e245619f79858eaeb75c5f0e0b6abb0/url {}
+2020-03-17 14:02:18,151 - DEBUG - http://127.0.0.1:49463 "GET /session/1e245619f79858eaeb75c5f0e0b6abb0/url HTTP/1.1" 200 57
+2020-03-17 14:02:18,151 - DEBUG - Finished Request
+2020-03-17 14:02:18,180 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:02:18,372 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:02:18,434 - DEBUG - Length of soup: 3
+2020-03-17 14:02:18,442 - DEBUG - Downloading images for: butterfly kisses
+2020-03-17 14:07:28,458 - DEBUG - START OF PROGRAM
+2020-03-17 14:07:28,465 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:07:28,669 - DEBUG - https://imgur.com:443 "GET /search?q=%5B'butterfly',%20'kisses'%5D HTTP/1.1" 200 None
+2020-03-17 14:07:28,731 - DEBUG - Length of soup: 3
+2020-03-17 14:07:28,739 - DEBUG - Downloading images for: butterfly kisses
+2020-03-17 14:09:38,986 - DEBUG - START OF PROGRAM
+2020-03-17 14:09:38,993 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:09:39,179 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:09:39,255 - DEBUG - Length of soup: 3
+2020-03-17 14:09:39,262 - DEBUG - Downloading images for: butterfly kisses
+2020-03-17 14:17:55,117 - DEBUG - START OF PROGRAM
+2020-03-17 14:17:55,117 - DEBUG - Opening imgur.com and searching: butterfly kisses
+2020-03-17 14:17:56,131 - DEBUG - POST http://127.0.0.1:49535/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-17 14:17:56,132 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:49535
+2020-03-17 14:17:57,283 - DEBUG - http://127.0.0.1:49535 "POST /session HTTP/1.1" 200 690
+2020-03-17 14:17:57,284 - DEBUG - Finished Request
+2020-03-17 14:17:57,284 - DEBUG - POST http://127.0.0.1:49535/session/250d12b9a7d90463ffe58597a0218b02/url {"url": "https://imgur.com/"}
+2020-03-17 14:17:59,185 - DEBUG - http://127.0.0.1:49535 "POST /session/250d12b9a7d90463ffe58597a0218b02/url HTTP/1.1" 200 14
+2020-03-17 14:17:59,185 - DEBUG - Finished Request
+2020-03-17 14:17:59,186 - DEBUG - POST http://127.0.0.1:49535/session/250d12b9a7d90463ffe58597a0218b02/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-17 14:17:59,397 - DEBUG - http://127.0.0.1:49535 "POST /session/250d12b9a7d90463ffe58597a0218b02/element HTTP/1.1" 200 88
+2020-03-17 14:17:59,397 - DEBUG - Finished Request
+2020-03-17 14:17:59,398 - DEBUG - POST http://127.0.0.1:49535/session/250d12b9a7d90463ffe58597a0218b02/element/c59cea47-7f0a-4fa3-b502-949438620e40/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "c59cea47-7f0a-4fa3-b502-949438620e40"}
+2020-03-17 14:17:59,838 - DEBUG - http://127.0.0.1:49535 "POST /session/250d12b9a7d90463ffe58597a0218b02/element/c59cea47-7f0a-4fa3-b502-949438620e40/value HTTP/1.1" 200 14
+2020-03-17 14:17:59,838 - DEBUG - Finished Request
+2020-03-17 14:17:59,838 - DEBUG - POST http://127.0.0.1:49535/session/250d12b9a7d90463ffe58597a0218b02/element/c59cea47-7f0a-4fa3-b502-949438620e40/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "c59cea47-7f0a-4fa3-b502-949438620e40"}
+2020-03-17 14:17:59,853 - DEBUG - http://127.0.0.1:49535 "POST /session/250d12b9a7d90463ffe58597a0218b02/element/c59cea47-7f0a-4fa3-b502-949438620e40/element HTTP/1.1" 200 88
+2020-03-17 14:17:59,853 - DEBUG - Finished Request
+2020-03-17 14:17:59,853 - DEBUG - POST http://127.0.0.1:49535/session/250d12b9a7d90463ffe58597a0218b02/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "bdcbc739-4389-4ea4-b79c-24784b321be9", "element-6066-11e4-a52e-4f735466cecf": "bdcbc739-4389-4ea4-b79c-24784b321be9"}]}
+2020-03-17 14:18:00,663 - DEBUG - http://127.0.0.1:49535 "POST /session/250d12b9a7d90463ffe58597a0218b02/execute/sync HTTP/1.1" 200 14
+2020-03-17 14:18:00,663 - DEBUG - Finished Request
+2020-03-17 14:18:00,675 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:18:00,819 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:18:00,878 - DEBUG - 66834
+2020-03-17 14:18:00,956 - DEBUG - Length of soup: 3
+2020-03-17 14:29:07,357 - DEBUG - START OF PROGRAM
+2020-03-17 14:29:07,357 - DEBUG - Opening imgur.com and searching: butterfly kisses
+2020-03-17 14:29:08,371 - DEBUG - POST http://127.0.0.1:52170/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-17 14:29:08,373 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:52170
+2020-03-17 14:29:09,565 - DEBUG - http://127.0.0.1:52170 "POST /session HTTP/1.1" 200 690
+2020-03-17 14:29:09,565 - DEBUG - Finished Request
+2020-03-17 14:29:09,565 - DEBUG - POST http://127.0.0.1:52170/session/609879331b5514424321151f7058569f/url {"url": "https://imgur.com/"}
+2020-03-17 14:29:11,305 - DEBUG - http://127.0.0.1:52170 "POST /session/609879331b5514424321151f7058569f/url HTTP/1.1" 200 14
+2020-03-17 14:29:11,306 - DEBUG - Finished Request
+2020-03-17 14:29:11,306 - DEBUG - POST http://127.0.0.1:52170/session/609879331b5514424321151f7058569f/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-17 14:29:11,573 - DEBUG - http://127.0.0.1:52170 "POST /session/609879331b5514424321151f7058569f/element HTTP/1.1" 200 88
+2020-03-17 14:29:11,574 - DEBUG - Finished Request
+2020-03-17 14:29:11,574 - DEBUG - POST http://127.0.0.1:52170/session/609879331b5514424321151f7058569f/element/23e5373f-8d8c-480d-b360-33297a4387e7/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "23e5373f-8d8c-480d-b360-33297a4387e7"}
+2020-03-17 14:29:12,108 - DEBUG - http://127.0.0.1:52170 "POST /session/609879331b5514424321151f7058569f/element/23e5373f-8d8c-480d-b360-33297a4387e7/value HTTP/1.1" 200 14
+2020-03-17 14:29:12,109 - DEBUG - Finished Request
+2020-03-17 14:29:12,109 - DEBUG - POST http://127.0.0.1:52170/session/609879331b5514424321151f7058569f/element/23e5373f-8d8c-480d-b360-33297a4387e7/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "23e5373f-8d8c-480d-b360-33297a4387e7"}
+2020-03-17 14:29:12,144 - DEBUG - http://127.0.0.1:52170 "POST /session/609879331b5514424321151f7058569f/element/23e5373f-8d8c-480d-b360-33297a4387e7/element HTTP/1.1" 200 88
+2020-03-17 14:29:12,145 - DEBUG - Finished Request
+2020-03-17 14:29:12,145 - DEBUG - POST http://127.0.0.1:52170/session/609879331b5514424321151f7058569f/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "71273a26-6f6b-456f-91ec-8d115a935051", "element-6066-11e4-a52e-4f735466cecf": "71273a26-6f6b-456f-91ec-8d115a935051"}]}
+2020-03-17 14:29:13,231 - DEBUG - http://127.0.0.1:52170 "POST /session/609879331b5514424321151f7058569f/execute/sync HTTP/1.1" 200 14
+2020-03-17 14:29:13,231 - DEBUG - Finished Request
+2020-03-17 14:29:13,241 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:29:13,424 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:29:13,470 - DEBUG - 66834
+2020-03-17 14:29:13,541 - DEBUG - Length of soup: 3
+2020-03-17 14:29:13,562 - DEBUG - END OF PROGRAM
+2020-03-17 14:31:06,006 - DEBUG - START OF PROGRAM
+2020-03-17 14:31:06,006 - DEBUG - Opening imgur.com and searching: butterfly kisses
+2020-03-17 14:31:07,022 - DEBUG - POST http://127.0.0.1:52703/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-17 14:31:07,023 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:52703
+2020-03-17 14:31:08,167 - DEBUG - http://127.0.0.1:52703 "POST /session HTTP/1.1" 200 690
+2020-03-17 14:31:08,168 - DEBUG - Finished Request
+2020-03-17 14:31:08,169 - DEBUG - POST http://127.0.0.1:52703/session/050276f3de3b85e43df1aa4eee826969/url {"url": "https://imgur.com/"}
+2020-03-17 14:31:09,994 - DEBUG - http://127.0.0.1:52703 "POST /session/050276f3de3b85e43df1aa4eee826969/url HTTP/1.1" 200 14
+2020-03-17 14:31:09,994 - DEBUG - Finished Request
+2020-03-17 14:31:09,994 - DEBUG - POST http://127.0.0.1:52703/session/050276f3de3b85e43df1aa4eee826969/element {"using": "xpath", "value": "//*[@id='root']/div/div[1]/div/div[1]/div[2]/div[3]/div/form/input"}
+2020-03-17 14:31:10,249 - DEBUG - http://127.0.0.1:52703 "POST /session/050276f3de3b85e43df1aa4eee826969/element HTTP/1.1" 200 88
+2020-03-17 14:31:10,250 - DEBUG - Finished Request
+2020-03-17 14:31:10,250 - DEBUG - POST http://127.0.0.1:52703/session/050276f3de3b85e43df1aa4eee826969/element/d4e01387-ce1f-4983-8306-2015bb58bf15/value {"text": "butterfly kisses", "value": ["b", "u", "t", "t", "e", "r", "f", "l", "y", " ", "k", "i", "s", "s", "e", "s"], "id": "d4e01387-ce1f-4983-8306-2015bb58bf15"}
+2020-03-17 14:31:10,788 - DEBUG - http://127.0.0.1:52703 "POST /session/050276f3de3b85e43df1aa4eee826969/element/d4e01387-ce1f-4983-8306-2015bb58bf15/value HTTP/1.1" 200 14
+2020-03-17 14:31:10,788 - DEBUG - Finished Request
+2020-03-17 14:31:10,788 - DEBUG - POST http://127.0.0.1:52703/session/050276f3de3b85e43df1aa4eee826969/element/d4e01387-ce1f-4983-8306-2015bb58bf15/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "d4e01387-ce1f-4983-8306-2015bb58bf15"}
+2020-03-17 14:31:10,817 - DEBUG - http://127.0.0.1:52703 "POST /session/050276f3de3b85e43df1aa4eee826969/element/d4e01387-ce1f-4983-8306-2015bb58bf15/element HTTP/1.1" 200 88
+2020-03-17 14:31:10,817 - DEBUG - Finished Request
+2020-03-17 14:31:10,818 - DEBUG - POST http://127.0.0.1:52703/session/050276f3de3b85e43df1aa4eee826969/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "a86ce0ab-07f4-4fba-8c80-5c905ccbbaab", "element-6066-11e4-a52e-4f735466cecf": "a86ce0ab-07f4-4fba-8c80-5c905ccbbaab"}]}
+2020-03-17 14:31:11,789 - DEBUG - http://127.0.0.1:52703 "POST /session/050276f3de3b85e43df1aa4eee826969/execute/sync HTTP/1.1" 200 14
+2020-03-17 14:31:11,789 - DEBUG - Finished Request
+2020-03-17 14:31:11,815 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:31:12,029 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:31:12,070 - DEBUG - 66834
+2020-03-17 14:31:12,148 - DEBUG - Length of soup: 3
+2020-03-17 14:31:12,164 - DEBUG - END OF PROGRAM
+2020-03-17 14:35:43,707 - DEBUG - START OF PROGRAM
+2020-03-17 14:35:43,714 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:35:44,170 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:35:44,244 - DEBUG - 66834
+2020-03-17 14:35:44,271 - DEBUG - Length of soup: 3
+2020-03-17 14:36:38,381 - DEBUG - START OF PROGRAM
+2020-03-17 14:36:38,388 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:36:38,572 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:36:38,618 - DEBUG - 66834
+2020-03-17 14:36:38,645 - DEBUG - Length of soup: 3
+2020-03-17 14:37:01,294 - DEBUG - START OF PROGRAM
+2020-03-17 14:37:01,301 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:37:01,439 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:37:01,475 - DEBUG - 66834
+2020-03-17 14:37:01,503 - DEBUG - Length of soup: 3
+2020-03-17 14:37:23,562 - DEBUG - START OF PROGRAM
+2020-03-17 14:37:23,569 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:37:23,704 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:37:23,751 - DEBUG - 66834
+2020-03-17 14:37:23,780 - DEBUG - Length of soup: 3
+2020-03-17 14:37:23,780 - DEBUG - Could not find any images for butterfly kisses
+2020-03-17 14:37:23,781 - DEBUG - END OF PROGRAM
+2020-03-17 14:38:03,667 - DEBUG - START OF PROGRAM
+2020-03-17 14:38:03,674 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:38:03,851 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:38:03,888 - DEBUG - 66834
+2020-03-17 14:38:03,915 - DEBUG - Length of soup: 3
+2020-03-17 14:38:15,102 - DEBUG - START OF PROGRAM
+2020-03-17 14:38:15,110 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:38:15,248 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:38:15,294 - DEBUG - 66834
+2020-03-17 14:38:15,322 - DEBUG - Length of soup: 3
+2020-03-17 14:40:30,884 - DEBUG - START OF PROGRAM
+2020-03-17 14:40:30,891 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:40:31,111 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:40:31,154 - DEBUG - 66834
+2020-03-17 14:40:31,180 - DEBUG - Length of soup: 3
+2020-03-17 14:41:25,588 - DEBUG - START OF PROGRAM
+2020-03-17 14:41:25,595 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:41:25,736 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:41:25,784 - DEBUG - 66834
+2020-03-17 14:41:25,811 - DEBUG - Length of soup: 3
+2020-03-17 14:41:25,819 - DEBUG - END OF PROGRAM
+2020-03-17 14:46:02,219 - DEBUG - START OF PROGRAM
+2020-03-17 14:46:02,226 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:46:02,416 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:46:02,458 - DEBUG - 66834
+2020-03-17 14:46:02,486 - DEBUG - Length of soup: 3
+2020-03-17 14:46:02,499 - DEBUG - END OF PROGRAM
+2020-03-17 14:47:56,802 - DEBUG - START OF PROGRAM
+2020-03-17 14:47:56,809 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:47:56,949 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:47:56,983 - DEBUG - 66834
+2020-03-17 14:47:57,011 - DEBUG - Length of soup: 3
+2020-03-17 14:47:57,023 - DEBUG - END OF PROGRAM
+2020-03-17 14:49:34,183 - DEBUG - START OF PROGRAM
+2020-03-17 14:49:34,190 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:49:34,389 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:49:34,430 - DEBUG - 66834
+2020-03-17 14:49:34,456 - DEBUG - Length of soup: 3
+2020-03-17 14:49:34,464 - DEBUG - END OF PROGRAM
+2020-03-17 14:50:04,069 - DEBUG - START OF PROGRAM
+2020-03-17 14:50:04,076 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:50:04,210 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:50:04,252 - DEBUG - 66834
+2020-03-17 14:50:04,278 - DEBUG - Length of soup: 3
+2020-03-17 14:50:04,287 - DEBUG - END OF PROGRAM
+2020-03-17 14:50:17,579 - DEBUG - START OF PROGRAM
+2020-03-17 14:50:17,587 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 14:50:17,755 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 14:50:17,800 - DEBUG - 66834
+2020-03-17 14:50:17,827 - DEBUG - Length of soup: 3
+2020-03-17 14:50:17,835 - DEBUG - END OF PROGRAM
+2020-03-17 15:01:11,719 - DEBUG - START OF PROGRAM
+2020-03-17 15:01:11,726 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:01:11,937 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:01:11,990 - DEBUG - 66834
+2020-03-17 15:01:12,016 - DEBUG - Length of soup: 3
+2020-03-17 15:05:00,268 - DEBUG - START OF PROGRAM
+2020-03-17 15:05:00,275 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:05:00,484 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:05:00,532 - DEBUG - 66834
+2020-03-17 15:05:00,560 - DEBUG - Length of soup: 3
+2020-03-17 15:06:11,514 - DEBUG - START OF PROGRAM
+2020-03-17 15:06:11,521 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:06:11,654 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:06:11,697 - DEBUG - 66834
+2020-03-17 15:06:11,723 - DEBUG - Length of soup: 3
+2020-03-17 15:07:32,053 - DEBUG - START OF PROGRAM
+2020-03-17 15:07:32,060 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:07:32,279 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:07:32,334 - DEBUG - 66834
+2020-03-17 15:07:32,362 - DEBUG - Length of soup: 3
+2020-03-17 15:08:16,946 - DEBUG - START OF PROGRAM
+2020-03-17 15:08:16,953 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:08:17,089 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:08:17,136 - DEBUG - 66834
+2020-03-17 15:08:17,171 - DEBUG - Length of soup: 3
+2020-03-17 15:08:54,568 - DEBUG - START OF PROGRAM
+2020-03-17 15:08:54,575 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:08:54,708 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:08:54,745 - DEBUG - 66834
+2020-03-17 15:08:54,773 - DEBUG - Length of soup: 3
+2020-03-17 15:08:54,782 - DEBUG - END OF PROGRAM
+2020-03-17 15:12:18,605 - DEBUG - START OF PROGRAM
+2020-03-17 15:12:18,613 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:12:18,828 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:12:18,869 - DEBUG - 66834
+2020-03-17 15:12:18,897 - DEBUG - Length of soup: 3
+2020-03-17 15:12:30,932 - DEBUG - START OF PROGRAM
+2020-03-17 15:12:30,940 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:12:31,080 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:12:31,128 - DEBUG - 66834
+2020-03-17 15:12:31,169 - DEBUG - Length of soup: 3
+2020-03-17 15:12:31,176 - DEBUG - END OF PROGRAM
+2020-03-17 15:13:05,938 - DEBUG - START OF PROGRAM
+2020-03-17 15:13:05,947 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:13:06,127 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:13:06,181 - DEBUG - 66834
+2020-03-17 15:13:06,216 - DEBUG - Length of soup: 3
+2020-03-17 15:13:06,226 - DEBUG - END OF PROGRAM
+2020-03-17 15:13:30,368 - DEBUG - START OF PROGRAM
+2020-03-17 15:13:30,376 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:13:30,508 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:13:30,545 - DEBUG - 66834
+2020-03-17 15:13:30,584 - DEBUG - Length of soup: 3
+2020-03-17 15:13:30,593 - DEBUG - END OF PROGRAM
+2020-03-17 15:17:18,140 - DEBUG - START OF PROGRAM
+2020-03-17 15:17:18,149 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:17:18,387 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:17:18,437 - DEBUG - 66834
+2020-03-17 15:17:18,465 - DEBUG - Length of soup: 3
+2020-03-17 15:18:08,925 - DEBUG - START OF PROGRAM
+2020-03-17 15:18:08,949 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:18:09,090 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:18:09,126 - DEBUG - 66834
+2020-03-17 15:18:09,153 - DEBUG - Length of soup: 3
+2020-03-17 15:18:18,039 - DEBUG - START OF PROGRAM
+2020-03-17 15:18:18,046 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:18:18,170 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:18:18,209 - DEBUG - 66834
+2020-03-17 15:18:18,236 - DEBUG - Length of soup: 3
+2020-03-17 15:18:47,957 - DEBUG - START OF PROGRAM
+2020-03-17 15:18:47,964 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:18:48,104 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:18:48,145 - DEBUG - 66834
+2020-03-17 15:18:48,171 - DEBUG - Length of soup: 3
+2020-03-17 15:21:41,501 - DEBUG - START OF PROGRAM
+2020-03-17 15:21:41,509 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:41,858 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 15:21:41,940 - DEBUG - 66834
+2020-03-17 15:21:41,966 - DEBUG - Length of soup: 3
+2020-03-17 15:21:41,976 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:42,131 - DEBUG - https://imgur.com:443 "GET /gallery/BuxTyzs HTTP/1.1" 200 4209
+2020-03-17 15:21:42,144 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:42,264 - DEBUG - https://imgur.com:443 "GET /gallery/oVcd2 HTTP/1.1" 200 4209
+2020-03-17 15:21:42,271 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:42,458 - DEBUG - https://imgur.com:443 "GET /gallery/8jCBggV HTTP/1.1" 200 61897
+2020-03-17 15:21:42,514 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:42,680 - DEBUG - https://imgur.com:443 "GET /gallery/d2QdyIz HTTP/1.1" 200 61080
+2020-03-17 15:21:42,753 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:42,922 - DEBUG - https://imgur.com:443 "GET /gallery/weoxhUm HTTP/1.1" 200 60315
+2020-03-17 15:21:42,965 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:43,087 - DEBUG - https://imgur.com:443 "GET /gallery/Z27guW1 HTTP/1.1" 200 4209
+2020-03-17 15:21:43,095 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:43,829 - DEBUG - https://imgur.com:443 "GET /gallery/3iWRo4h HTTP/1.1" 200 60247
+2020-03-17 15:21:43,875 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:43,987 - DEBUG - https://imgur.com:443 "GET /gallery/plXQeDk HTTP/1.1" 200 4209
+2020-03-17 15:21:43,995 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:44,103 - DEBUG - https://imgur.com:443 "GET /gallery/jVVuVVj HTTP/1.1" 200 4209
+2020-03-17 15:21:44,111 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:44,207 - DEBUG - https://imgur.com:443 "GET /gallery/xE8814I HTTP/1.1" 200 4209
+2020-03-17 15:21:44,220 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:44,328 - DEBUG - https://imgur.com:443 "GET /gallery/YWjGQuU HTTP/1.1" 200 4209
+2020-03-17 15:21:44,336 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:44,541 - DEBUG - https://imgur.com:443 "GET /gallery/cdwW6 HTTP/1.1" 200 63000
+2020-03-17 15:21:44,592 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 15:21:44,760 - DEBUG - https://imgur.com:443 "GET /gallery/Qjajj6w HTTP/1.1" 200 61890
+2020-03-17 15:21:44,803 - DEBUG - END OF PROGRAM
+2020-03-17 18:12:22,385 - DEBUG - START OF PROGRAM
+2020-03-17 18:12:22,419 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:22,666 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 18:12:22,711 - DEBUG - 66834
+2020-03-17 18:12:22,741 - DEBUG - Length of soup: 3
+2020-03-17 18:12:22,750 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:22,918 - DEBUG - https://imgur.com:443 "GET /gallery/BuxTyzs HTTP/1.1" 200 64071
+2020-03-17 18:12:22,975 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:23,079 - DEBUG - https://imgur.com:443 "GET /gallery/oVcd2 HTTP/1.1" 200 4209
+2020-03-17 18:12:23,087 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:23,248 - DEBUG - https://imgur.com:443 "GET /gallery/8jCBggV HTTP/1.1" 200 61897
+2020-03-17 18:12:23,289 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:23,404 - DEBUG - https://imgur.com:443 "GET /gallery/d2QdyIz HTTP/1.1" 200 4209
+2020-03-17 18:12:23,410 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:23,562 - DEBUG - https://imgur.com:443 "GET /gallery/weoxhUm HTTP/1.1" 200 60315
+2020-03-17 18:12:23,602 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:23,723 - DEBUG - https://imgur.com:443 "GET /gallery/Z27guW1 HTTP/1.1" 200 4209
+2020-03-17 18:12:23,731 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:23,887 - DEBUG - https://imgur.com:443 "GET /gallery/3iWRo4h HTTP/1.1" 200 60247
+2020-03-17 18:12:23,939 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:24,111 - DEBUG - https://imgur.com:443 "GET /gallery/plXQeDk HTTP/1.1" 200 61989
+2020-03-17 18:12:24,155 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:24,280 - DEBUG - https://imgur.com:443 "GET /gallery/jVVuVVj HTTP/1.1" 200 4209
+2020-03-17 18:12:24,292 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:24,457 - DEBUG - https://imgur.com:443 "GET /gallery/xE8814I HTTP/1.1" 200 67099
+2020-03-17 18:12:24,500 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:24,666 - DEBUG - https://imgur.com:443 "GET /gallery/YWjGQuU HTTP/1.1" 200 70848
+2020-03-17 18:12:24,713 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:24,871 - DEBUG - https://imgur.com:443 "GET /gallery/cdwW6 HTTP/1.1" 200 63000
+2020-03-17 18:12:24,918 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:12:25,058 - DEBUG - https://imgur.com:443 "GET /gallery/Qjajj6w HTTP/1.1" 200 4209
+2020-03-17 18:12:25,062 - DEBUG - END OF PROGRAM
+2020-03-17 18:21:44,013 - DEBUG - START OF PROGRAM
+2020-03-17 18:21:44,022 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:21:44,278 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 18:21:44,333 - DEBUG - 66834
+2020-03-17 18:21:44,359 - DEBUG - Length of soup: 3
+2020-03-17 18:21:56,361 - DEBUG - START OF PROGRAM
+2020-03-17 18:21:56,368 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:21:56,748 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 18:21:56,792 - DEBUG - 66834
+2020-03-17 18:21:56,819 - DEBUG - Length of soup: 3
+2020-03-17 18:21:56,830 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:21:57,036 - DEBUG - https://imgur.com:443 "GET /gallery/BuxTyzs HTTP/1.1" 200 4209
+2020-03-17 18:21:57,046 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:21:57,233 - DEBUG - https://imgur.com:443 "GET /gallery/oVcd2 HTTP/1.1" 200 60458
+2020-03-17 18:21:57,282 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:21:57,457 - DEBUG - https://imgur.com:443 "GET /gallery/8jCBggV HTTP/1.1" 200 61897
+2020-03-17 18:21:57,733 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:21:57,908 - DEBUG - https://imgur.com:443 "GET /gallery/d2QdyIz HTTP/1.1" 200 61080
+2020-03-17 18:21:57,959 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:21:58,191 - DEBUG - https://imgur.com:443 "GET /gallery/weoxhUm HTTP/1.1" 200 60315
+2020-03-17 18:21:58,251 - DEBUG - END OF PROGRAM
+2020-03-17 18:25:04,388 - DEBUG - START OF PROGRAM
+2020-03-17 18:25:04,398 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:25:04,544 - DEBUG - https://imgur.com:443 "GET /search?q=candy%20cane%20syrup HTTP/1.1" 200 None
+2020-03-17 18:25:04,580 - DEBUG - 45820
+2020-03-17 18:25:04,612 - DEBUG - Length of soup: 3
+2020-03-17 18:25:04,623 - DEBUG - Could not find any images for candy cane syrup
+2020-03-17 18:25:04,623 - DEBUG - END OF PROGRAM
+2020-03-17 18:30:32,453 - DEBUG - START OF PROGRAM
+2020-03-17 18:30:32,470 - DEBUG - Starting new HTTPS connection (1): imgur.com:443
+2020-03-17 18:30:32,700 - DEBUG - https://imgur.com:443 "GET /search?q=butterfly%20kisses HTTP/1.1" 200 None
+2020-03-17 18:30:32,753 - DEBUG - 66834
+2020-03-17 18:30:32,780 - DEBUG - Length of soup: 3
+2020-03-17 18:30:32,807 - DEBUG - Starting new HTTPS connection (1): i.imgur.com:443
+2020-03-17 18:30:32,935 - DEBUG - https://i.imgur.com:443 "GET /BuxTyzsb.jpg HTTP/1.1" 200 8057
+2020-03-17 18:30:32,945 - DEBUG - Starting new HTTPS connection (1): i.imgur.com:443
+2020-03-17 18:30:33,060 - DEBUG - https://i.imgur.com:443 "GET /oVcd2b.jpg HTTP/1.1" 200 6019
+2020-03-17 18:30:33,068 - DEBUG - Starting new HTTPS connection (1): i.imgur.com:443
+2020-03-17 18:30:33,170 - DEBUG - https://i.imgur.com:443 "GET /8jCBggVb.jpg HTTP/1.1" 200 5240
+2020-03-17 18:30:33,179 - DEBUG - Starting new HTTPS connection (1): i.imgur.com:443
+2020-03-17 18:30:33,285 - DEBUG - https://i.imgur.com:443 "GET /d2QdyIzb.jpg HTTP/1.1" 200 5258
+2020-03-17 18:30:33,293 - DEBUG - Starting new HTTPS connection (1): i.imgur.com:443
+2020-03-17 18:30:33,399 - DEBUG - https://i.imgur.com:443 "GET /weoxhUmb.jpg HTTP/1.1" 200 4972
+2020-03-17 18:30:33,405 - DEBUG - END OF PROGRAM

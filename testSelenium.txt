@@ -1,0 +1,116 @@
+2020-03-14 20:13:44,177 - DEBUG - POST http://127.0.0.1:52009/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-14 20:13:44,178 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:52009
+2020-03-14 20:13:45,532 - DEBUG - http://127.0.0.1:52009 "POST /session HTTP/1.1" 200 690
+2020-03-14 20:13:45,533 - DEBUG - Finished Request
+2020-03-14 20:13:45,533 - DEBUG - POST http://127.0.0.1:52009/session/0450ac7eb4c6dc0d4dd7a6ae43f97582/url {"url": "https://inventwithpython.com"}
+2020-03-14 20:13:46,748 - DEBUG - http://127.0.0.1:52009 "POST /session/0450ac7eb4c6dc0d4dd7a6ae43f97582/url HTTP/1.1" 200 14
+2020-03-14 20:13:46,749 - DEBUG - Finished Request
+2020-03-14 20:13:46,749 - DEBUG - POST http://127.0.0.1:52009/session/0450ac7eb4c6dc0d4dd7a6ae43f97582/element {"using": "link text", "value": "Read Online for Free"}
+2020-03-14 20:13:46,786 - DEBUG - http://127.0.0.1:52009 "POST /session/0450ac7eb4c6dc0d4dd7a6ae43f97582/element HTTP/1.1" 200 88
+2020-03-14 20:13:46,786 - DEBUG - Finished Request
+2020-03-14 20:13:46,787 - DEBUG - POST http://127.0.0.1:52009/session/0450ac7eb4c6dc0d4dd7a6ae43f97582/element/c17de111-37c6-4ec2-9d63-339389c7eb49/click {"id": "c17de111-37c6-4ec2-9d63-339389c7eb49"}
+2020-03-14 20:13:47,444 - DEBUG - http://127.0.0.1:52009 "POST /session/0450ac7eb4c6dc0d4dd7a6ae43f97582/element/c17de111-37c6-4ec2-9d63-339389c7eb49/click HTTP/1.1" 200 14
+2020-03-14 20:13:47,445 - DEBUG - Finished Request
+2020-03-14 20:13:47,445 - DEBUG - DELETE http://127.0.0.1:52009/session/0450ac7eb4c6dc0d4dd7a6ae43f97582 {}
+2020-03-14 20:13:47,497 - DEBUG - http://127.0.0.1:52009 "DELETE /session/0450ac7eb4c6dc0d4dd7a6ae43f97582 HTTP/1.1" 200 14
+2020-03-14 20:13:47,497 - DEBUG - Finished Request
+2020-03-14 20:13:59,806 - DEBUG - POST http://127.0.0.1:52041/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-14 20:13:59,807 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:52041
+2020-03-14 20:14:01,010 - DEBUG - http://127.0.0.1:52041 "POST /session HTTP/1.1" 200 690
+2020-03-14 20:14:01,011 - DEBUG - Finished Request
+2020-03-14 20:14:01,011 - DEBUG - POST http://127.0.0.1:52041/session/a9f898debe9a8591303ebd9c67f7c68a/url {"url": "https://inventwithpython.com"}
+2020-03-14 20:14:02,488 - DEBUG - http://127.0.0.1:52041 "POST /session/a9f898debe9a8591303ebd9c67f7c68a/url HTTP/1.1" 200 14
+2020-03-14 20:14:02,489 - DEBUG - Finished Request
+2020-03-14 20:14:02,489 - DEBUG - POST http://127.0.0.1:52041/session/a9f898debe9a8591303ebd9c67f7c68a/element {"using": "link text", "value": "Read Online for Free"}
+2020-03-14 20:14:02,521 - DEBUG - http://127.0.0.1:52041 "POST /session/a9f898debe9a8591303ebd9c67f7c68a/element HTTP/1.1" 200 88
+2020-03-14 20:14:02,522 - DEBUG - Finished Request
+2020-03-14 20:14:02,523 - DEBUG - POST http://127.0.0.1:52041/session/a9f898debe9a8591303ebd9c67f7c68a/element/9e02320a-d840-4583-bfd7-28b38570dec4/click {"id": "9e02320a-d840-4583-bfd7-28b38570dec4"}
+2020-03-14 20:14:03,100 - DEBUG - http://127.0.0.1:52041 "POST /session/a9f898debe9a8591303ebd9c67f7c68a/element/9e02320a-d840-4583-bfd7-28b38570dec4/click HTTP/1.1" 200 14
+2020-03-14 20:14:03,100 - DEBUG - Finished Request
+2020-03-14 20:15:25,931 - DEBUG - POST http://127.0.0.1:52076/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-14 20:15:25,932 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:52076
+2020-03-14 20:15:27,154 - DEBUG - http://127.0.0.1:52076 "POST /session HTTP/1.1" 200 690
+2020-03-14 20:15:27,154 - DEBUG - Finished Request
+2020-03-14 20:15:27,154 - DEBUG - POST http://127.0.0.1:52076/session/b88d420f79b9364ab0edfe32c42050ab/url {"url": "https://nostarch.com"}
+2020-03-14 20:15:28,439 - DEBUG - http://127.0.0.1:52076 "POST /session/b88d420f79b9364ab0edfe32c42050ab/url HTTP/1.1" 200 14
+2020-03-14 20:15:28,439 - DEBUG - Finished Request
+2020-03-14 20:15:28,439 - DEBUG - POST http://127.0.0.1:52076/session/b88d420f79b9364ab0edfe32c42050ab/element {"using": "css selector", "value": "html"}
+2020-03-14 20:15:28,455 - DEBUG - http://127.0.0.1:52076 "POST /session/b88d420f79b9364ab0edfe32c42050ab/element HTTP/1.1" 200 88
+2020-03-14 20:15:28,455 - DEBUG - Finished Request
+2020-03-14 20:15:28,455 - DEBUG - POST http://127.0.0.1:52076/session/b88d420f79b9364ab0edfe32c42050ab/element/81408e5d-a03e-4e03-ae67-c7aca5b859f6/value {"text": "\ue010", "value": ["\ue010"], "id": "81408e5d-a03e-4e03-ae67-c7aca5b859f6"}
+2020-03-14 20:15:28,490 - DEBUG - http://127.0.0.1:52076 "POST /session/b88d420f79b9364ab0edfe32c42050ab/element/81408e5d-a03e-4e03-ae67-c7aca5b859f6/value HTTP/1.1" 200 14
+2020-03-14 20:15:28,491 - DEBUG - Finished Request
+2020-03-14 20:15:32,496 - DEBUG - POST http://127.0.0.1:52076/session/b88d420f79b9364ab0edfe32c42050ab/element/81408e5d-a03e-4e03-ae67-c7aca5b859f6/value {"text": "\ue011", "value": ["\ue011"], "id": "81408e5d-a03e-4e03-ae67-c7aca5b859f6"}
+2020-03-14 20:15:32,522 - DEBUG - http://127.0.0.1:52076 "POST /session/b88d420f79b9364ab0edfe32c42050ab/element/81408e5d-a03e-4e03-ae67-c7aca5b859f6/value HTTP/1.1" 200 14
+2020-03-14 20:15:32,522 - DEBUG - Finished Request
+2020-03-14 20:15:36,526 - DEBUG - DELETE http://127.0.0.1:52076/session/b88d420f79b9364ab0edfe32c42050ab {}
+2020-03-14 20:15:36,578 - DEBUG - http://127.0.0.1:52076 "DELETE /session/b88d420f79b9364ab0edfe32c42050ab HTTP/1.1" 200 14
+2020-03-14 20:15:36,579 - DEBUG - Finished Request
+2020-03-14 20:15:36,614 - DEBUG - POST http://127.0.0.1:52076/session/b88d420f79b9364ab0edfe32c42050ab/url {"url": "https://inventwithpython.com"}
+2020-03-14 20:15:36,614 - DEBUG - Resetting dropped connection: 127.0.0.1
+2020-03-14 20:15:36,615 - DEBUG - Incremented Retry for (url='/session/b88d420f79b9364ab0edfe32c42050ab/url'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2020-03-14 20:15:36,615 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10fe688b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b88d420f79b9364ab0edfe32c42050ab/url
+2020-03-14 20:15:36,615 - DEBUG - Starting new HTTP connection (2): 127.0.0.1:52076
+2020-03-14 20:15:36,616 - DEBUG - Incremented Retry for (url='/session/b88d420f79b9364ab0edfe32c42050ab/url'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2020-03-14 20:15:36,616 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ffd45e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b88d420f79b9364ab0edfe32c42050ab/url
+2020-03-14 20:15:36,616 - DEBUG - Starting new HTTP connection (3): 127.0.0.1:52076
+2020-03-14 20:15:36,616 - DEBUG - Incremented Retry for (url='/session/b88d420f79b9364ab0edfe32c42050ab/url'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2020-03-14 20:15:36,617 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10ffeff10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b88d420f79b9364ab0edfe32c42050ab/url
+2020-03-14 20:15:36,617 - DEBUG - Starting new HTTP connection (4): 127.0.0.1:52076
+2020-03-14 20:15:48,919 - DEBUG - POST http://127.0.0.1:52105/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-14 20:15:48,920 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:52105
+2020-03-14 20:15:50,146 - DEBUG - http://127.0.0.1:52105 "POST /session HTTP/1.1" 200 690
+2020-03-14 20:15:50,147 - DEBUG - Finished Request
+2020-03-14 20:15:50,147 - DEBUG - POST http://127.0.0.1:52105/session/8666b4421c7e932f489e23a3c1874982/url {"url": "https://nostarch.com"}
+2020-03-14 20:15:51,757 - DEBUG - http://127.0.0.1:52105 "POST /session/8666b4421c7e932f489e23a3c1874982/url HTTP/1.1" 200 14
+2020-03-14 20:15:51,758 - DEBUG - Finished Request
+2020-03-14 20:15:51,758 - DEBUG - POST http://127.0.0.1:52105/session/8666b4421c7e932f489e23a3c1874982/element {"using": "css selector", "value": "html"}
+2020-03-14 20:15:51,774 - DEBUG - http://127.0.0.1:52105 "POST /session/8666b4421c7e932f489e23a3c1874982/element HTTP/1.1" 200 88
+2020-03-14 20:15:51,774 - DEBUG - Finished Request
+2020-03-14 20:15:51,774 - DEBUG - POST http://127.0.0.1:52105/session/8666b4421c7e932f489e23a3c1874982/element/fa509db4-1823-4575-b56e-7b03508677a6/value {"text": "\ue010", "value": ["\ue010"], "id": "fa509db4-1823-4575-b56e-7b03508677a6"}
+2020-03-14 20:15:51,809 - DEBUG - http://127.0.0.1:52105 "POST /session/8666b4421c7e932f489e23a3c1874982/element/fa509db4-1823-4575-b56e-7b03508677a6/value HTTP/1.1" 200 14
+2020-03-14 20:15:51,809 - DEBUG - Finished Request
+2020-03-14 20:15:55,813 - DEBUG - POST http://127.0.0.1:52105/session/8666b4421c7e932f489e23a3c1874982/element/fa509db4-1823-4575-b56e-7b03508677a6/value {"text": "\ue011", "value": ["\ue011"], "id": "fa509db4-1823-4575-b56e-7b03508677a6"}
+2020-03-14 20:15:55,837 - DEBUG - http://127.0.0.1:52105 "POST /session/8666b4421c7e932f489e23a3c1874982/element/fa509db4-1823-4575-b56e-7b03508677a6/value HTTP/1.1" 200 14
+2020-03-14 20:15:55,837 - DEBUG - Finished Request
+2020-03-14 20:15:59,839 - DEBUG - DELETE http://127.0.0.1:52105/session/8666b4421c7e932f489e23a3c1874982 {}
+2020-03-14 20:15:59,893 - DEBUG - http://127.0.0.1:52105 "DELETE /session/8666b4421c7e932f489e23a3c1874982 HTTP/1.1" 200 14
+2020-03-14 20:15:59,893 - DEBUG - Finished Request
+2020-03-14 20:16:00,940 - DEBUG - POST http://127.0.0.1:52129/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-14 20:16:00,941 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:52129
+2020-03-14 20:16:02,159 - DEBUG - http://127.0.0.1:52129 "POST /session HTTP/1.1" 200 690
+2020-03-14 20:16:02,160 - DEBUG - Finished Request
+2020-03-14 20:16:02,160 - DEBUG - POST http://127.0.0.1:52129/session/a3ff598fc1ce60eab42895d79e6d8045/url {"url": "https://inventwithpython.com"}
+2020-03-14 20:16:03,387 - DEBUG - http://127.0.0.1:52129 "POST /session/a3ff598fc1ce60eab42895d79e6d8045/url HTTP/1.1" 200 14
+2020-03-14 20:16:03,388 - DEBUG - Finished Request
+2020-03-14 20:16:03,388 - DEBUG - POST http://127.0.0.1:52129/session/a3ff598fc1ce60eab42895d79e6d8045/element {"using": "link text", "value": "Read Online for Free"}
+2020-03-14 20:16:03,425 - DEBUG - http://127.0.0.1:52129 "POST /session/a3ff598fc1ce60eab42895d79e6d8045/element HTTP/1.1" 200 88
+2020-03-14 20:16:03,426 - DEBUG - Finished Request
+2020-03-14 20:16:03,426 - DEBUG - POST http://127.0.0.1:52129/session/a3ff598fc1ce60eab42895d79e6d8045/element/4af5991b-d1f2-4610-9a2f-6a8856dbc294/click {"id": "4af5991b-d1f2-4610-9a2f-6a8856dbc294"}
+2020-03-14 20:16:04,192 - DEBUG - http://127.0.0.1:52129 "POST /session/a3ff598fc1ce60eab42895d79e6d8045/element/4af5991b-d1f2-4610-9a2f-6a8856dbc294/click HTTP/1.1" 200 14
+2020-03-14 20:16:04,192 - DEBUG - Finished Request
+2020-03-14 20:24:09,877 - DEBUG - POST http://127.0.0.1:52691/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-14 20:24:09,878 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:52691
+2020-03-14 20:24:11,070 - DEBUG - http://127.0.0.1:52691 "POST /session HTTP/1.1" 200 690
+2020-03-14 20:24:11,070 - DEBUG - Finished Request
+2020-03-14 20:24:11,071 - DEBUG - POST http://127.0.0.1:52691/session/f8616784d7166216abf081958b88a86b/url {"url": "https://login.metafilter.com"}
+2020-03-14 20:24:12,672 - DEBUG - http://127.0.0.1:52691 "POST /session/f8616784d7166216abf081958b88a86b/url HTTP/1.1" 200 14
+2020-03-14 20:24:12,673 - DEBUG - Finished Request
+2020-03-14 20:24:12,673 - DEBUG - POST http://127.0.0.1:52691/session/f8616784d7166216abf081958b88a86b/element {"using": "css selector", "value": "[id=\"user_name\"]"}
+2020-03-14 20:24:12,697 - DEBUG - http://127.0.0.1:52691 "POST /session/f8616784d7166216abf081958b88a86b/element HTTP/1.1" 200 88
+2020-03-14 20:24:12,697 - DEBUG - Finished Request
+2020-03-14 20:24:12,697 - DEBUG - POST http://127.0.0.1:52691/session/f8616784d7166216abf081958b88a86b/element/69922c49-c2f2-41ef-8597-e318a3b1b13c/value {"text": "Fine_user", "value": ["F", "i", "n", "e", "_", "u", "s", "e", "r"], "id": "69922c49-c2f2-41ef-8597-e318a3b1b13c"}
+2020-03-14 20:24:12,876 - DEBUG - http://127.0.0.1:52691 "POST /session/f8616784d7166216abf081958b88a86b/element/69922c49-c2f2-41ef-8597-e318a3b1b13c/value HTTP/1.1" 200 14
+2020-03-14 20:24:12,877 - DEBUG - Finished Request
+2020-03-14 20:24:12,877 - DEBUG - POST http://127.0.0.1:52691/session/f8616784d7166216abf081958b88a86b/element {"using": "css selector", "value": "[id=\"user_pass\"]"}
+2020-03-14 20:24:12,889 - DEBUG - http://127.0.0.1:52691 "POST /session/f8616784d7166216abf081958b88a86b/element HTTP/1.1" 200 88
+2020-03-14 20:24:12,889 - DEBUG - Finished Request
+2020-03-14 20:24:12,890 - DEBUG - POST http://127.0.0.1:52691/session/f8616784d7166216abf081958b88a86b/element/e912d174-6857-4ce7-b466-eb72c1705447/value {"text": "Hell_ya_thats_my_password", "value": ["H", "e", "l", "l", "_", "y", "a", "_", "t", "h", "a", "t", "s", "_", "m", "y", "_", "p", "a", "s", "s", "w", "o", "r", "d"], "id": "e912d174-6857-4ce7-b466-eb72c1705447"}
+2020-03-14 20:24:13,036 - DEBUG - http://127.0.0.1:52691 "POST /session/f8616784d7166216abf081958b88a86b/element/e912d174-6857-4ce7-b466-eb72c1705447/value HTTP/1.1" 200 14
+2020-03-14 20:24:13,037 - DEBUG - Finished Request
+2020-03-14 20:24:13,037 - DEBUG - POST http://127.0.0.1:52691/session/f8616784d7166216abf081958b88a86b/element/e912d174-6857-4ce7-b466-eb72c1705447/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "e912d174-6857-4ce7-b466-eb72c1705447"}
+2020-03-14 20:24:13,051 - DEBUG - http://127.0.0.1:52691 "POST /session/f8616784d7166216abf081958b88a86b/element/e912d174-6857-4ce7-b466-eb72c1705447/element HTTP/1.1" 200 88
+2020-03-14 20:24:13,051 - DEBUG - Finished Request
+2020-03-14 20:24:13,051 - DEBUG - POST http://127.0.0.1:52691/session/f8616784d7166216abf081958b88a86b/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "d03015dc-da0c-495a-8ce1-2ad0c08fa23b", "element-6066-11e4-a52e-4f735466cecf": "d03015dc-da0c-495a-8ce1-2ad0c08fa23b"}]}
+2020-03-14 20:24:13,328 - DEBUG - http://127.0.0.1:52691 "POST /session/f8616784d7166216abf081958b88a86b/execute/sync HTTP/1.1" 200 14
+2020-03-14 20:24:13,328 - DEBUG - Finished Request

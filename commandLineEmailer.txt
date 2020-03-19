@@ -1,0 +1,242 @@
+2020-03-15 14:44:24,874 - DEBUG - Start of commandLineEmailer.py
+2020-03-15 14:44:24,875 - DEBUG - toEmail: maclachlan.paul@gmail.com
+2020-03-15 14:44:24,875 - DEBUG - toSubject: Subject
+2020-03-15 14:44:24,875 - DEBUG - toMessage: A message
+2020-03-15 14:44:25,891 - DEBUG - POST http://127.0.0.1:64340/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-15 14:44:25,892 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:64340
+2020-03-15 14:44:27,250 - DEBUG - http://127.0.0.1:64340 "POST /session HTTP/1.1" 200 690
+2020-03-15 14:44:27,251 - DEBUG - Finished Request
+2020-03-15 14:44:27,251 - DEBUG - POST http://127.0.0.1:64340/session/af0578c569e02e147c770d81295b5d02/url {"url": "https://accounts.google.com"}
+2020-03-15 14:44:28,577 - DEBUG - http://127.0.0.1:64340 "POST /session/af0578c569e02e147c770d81295b5d02/url HTTP/1.1" 200 14
+2020-03-15 14:44:28,578 - DEBUG - Finished Request
+2020-03-15 14:44:28,578 - DEBUG - POST http://127.0.0.1:64340/session/af0578c569e02e147c770d81295b5d02/element {"using": "css selector", "value": "[name=\"identifier\"]"}
+2020-03-15 14:44:28,599 - DEBUG - http://127.0.0.1:64340 "POST /session/af0578c569e02e147c770d81295b5d02/element HTTP/1.1" 200 88
+2020-03-15 14:44:28,600 - DEBUG - Finished Request
+2020-03-15 14:44:28,600 - DEBUG - POST http://127.0.0.1:64340/session/af0578c569e02e147c770d81295b5d02/element/3920e6f3-7708-4e15-acf9-052cc9058792/value {"text": "maclachlan.paul@gmail.com", "value": ["m", "a", "c", "l", "a", "c", "h", "l", "a", "n", ".", "p", "a", "u", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "3920e6f3-7708-4e15-acf9-052cc9058792"}
+2020-03-15 14:44:29,125 - DEBUG - http://127.0.0.1:64340 "POST /session/af0578c569e02e147c770d81295b5d02/element/3920e6f3-7708-4e15-acf9-052cc9058792/value HTTP/1.1" 200 14
+2020-03-15 14:44:29,125 - DEBUG - Finished Request
+2020-03-15 14:44:36,711 - DEBUG - Start of commandLineEmailer.py
+2020-03-15 14:44:36,711 - DEBUG - toEmail: maclachlan.paul@gmail.com
+2020-03-15 14:44:36,711 - DEBUG - toSubject: Subject
+2020-03-15 14:44:36,711 - DEBUG - toMessage: A message
+2020-03-15 14:44:37,725 - DEBUG - POST http://127.0.0.1:64366/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-15 14:44:37,727 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:64366
+2020-03-15 14:44:39,101 - DEBUG - http://127.0.0.1:64366 "POST /session HTTP/1.1" 200 690
+2020-03-15 14:44:39,102 - DEBUG - Finished Request
+2020-03-15 14:44:39,102 - DEBUG - POST http://127.0.0.1:64366/session/083208c676db993d7aae4db9c2d51c9a/url {"url": "https://accounts.google.com"}
+2020-03-15 14:44:40,423 - DEBUG - http://127.0.0.1:64366 "POST /session/083208c676db993d7aae4db9c2d51c9a/url HTTP/1.1" 200 14
+2020-03-15 14:44:40,424 - DEBUG - Finished Request
+2020-03-15 14:44:40,424 - DEBUG - POST http://127.0.0.1:64366/session/083208c676db993d7aae4db9c2d51c9a/element {"using": "css selector", "value": "[name=\"identifier\"]"}
+2020-03-15 14:44:40,470 - DEBUG - http://127.0.0.1:64366 "POST /session/083208c676db993d7aae4db9c2d51c9a/element HTTP/1.1" 200 88
+2020-03-15 14:44:40,471 - DEBUG - Finished Request
+2020-03-15 14:44:40,471 - DEBUG - POST http://127.0.0.1:64366/session/083208c676db993d7aae4db9c2d51c9a/element/fd1d4c49-bb72-40b1-bec1-ace1aa56a9f9/value {"text": "maclachlan.paul@gmail.com", "value": ["m", "a", "c", "l", "a", "c", "h", "l", "a", "n", ".", "p", "a", "u", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "fd1d4c49-bb72-40b1-bec1-ace1aa56a9f9"}
+2020-03-15 14:44:41,112 - DEBUG - http://127.0.0.1:64366 "POST /session/083208c676db993d7aae4db9c2d51c9a/element/fd1d4c49-bb72-40b1-bec1-ace1aa56a9f9/value HTTP/1.1" 200 14
+2020-03-15 14:44:41,113 - DEBUG - Finished Request
+2020-03-15 14:46:04,014 - DEBUG - Start of commandLineEmailer.py
+2020-03-15 14:46:04,015 - DEBUG - toEmail: maclachlan.paul@gmail.com
+2020-03-15 14:46:04,015 - DEBUG - toSubject: Subject
+2020-03-15 14:46:04,015 - DEBUG - toMessage: A message
+2020-03-15 14:46:05,035 - DEBUG - POST http://127.0.0.1:64729/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-15 14:46:05,036 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:64729
+2020-03-15 14:46:06,882 - DEBUG - http://127.0.0.1:64729 "POST /session HTTP/1.1" 200 690
+2020-03-15 14:46:06,883 - DEBUG - Finished Request
+2020-03-15 14:46:06,883 - DEBUG - POST http://127.0.0.1:64729/session/6eb1e440a4334f056ab6d7422cb70aeb/url {"url": "https://accounts.google.com"}
+2020-03-15 14:46:08,123 - DEBUG - http://127.0.0.1:64729 "POST /session/6eb1e440a4334f056ab6d7422cb70aeb/url HTTP/1.1" 200 14
+2020-03-15 14:46:08,124 - DEBUG - Finished Request
+2020-03-15 14:46:08,124 - DEBUG - POST http://127.0.0.1:64729/session/6eb1e440a4334f056ab6d7422cb70aeb/element {"using": "css selector", "value": "[name=\"identifier\"]"}
+2020-03-15 14:46:08,147 - DEBUG - http://127.0.0.1:64729 "POST /session/6eb1e440a4334f056ab6d7422cb70aeb/element HTTP/1.1" 200 88
+2020-03-15 14:46:08,148 - DEBUG - Finished Request
+2020-03-15 14:46:08,148 - DEBUG - POST http://127.0.0.1:64729/session/6eb1e440a4334f056ab6d7422cb70aeb/element/ba5e3144-9bb6-47e4-b978-9c91fca29011/value {"text": "maclachlan.paul@gmail.com", "value": ["m", "a", "c", "l", "a", "c", "h", "l", "a", "n", ".", "p", "a", "u", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "ba5e3144-9bb6-47e4-b978-9c91fca29011"}
+2020-03-15 14:46:08,667 - DEBUG - http://127.0.0.1:64729 "POST /session/6eb1e440a4334f056ab6d7422cb70aeb/element/ba5e3144-9bb6-47e4-b978-9c91fca29011/value HTTP/1.1" 200 14
+2020-03-15 14:46:08,667 - DEBUG - Finished Request
+2020-03-15 14:46:08,668 - DEBUG - POST http://127.0.0.1:64729/session/6eb1e440a4334f056ab6d7422cb70aeb/element {"using": "css selector", "value": "#identifierNext > span > span"}
+2020-03-15 14:46:08,679 - DEBUG - http://127.0.0.1:64729 "POST /session/6eb1e440a4334f056ab6d7422cb70aeb/element HTTP/1.1" 200 88
+2020-03-15 14:46:08,679 - DEBUG - Finished Request
+2020-03-15 14:46:08,679 - DEBUG - POST http://127.0.0.1:64729/session/6eb1e440a4334f056ab6d7422cb70aeb/element/67872c0f-6e05-4f07-a443-36cb127b0a01/click {"id": "67872c0f-6e05-4f07-a443-36cb127b0a01"}
+2020-03-15 14:46:08,850 - DEBUG - http://127.0.0.1:64729 "POST /session/6eb1e440a4334f056ab6d7422cb70aeb/element/67872c0f-6e05-4f07-a443-36cb127b0a01/click HTTP/1.1" 200 14
+2020-03-15 14:46:08,850 - DEBUG - Finished Request
+2020-03-15 14:46:08,850 - DEBUG - POST http://127.0.0.1:64729/session/6eb1e440a4334f056ab6d7422cb70aeb/element {"using": "css selector", "value": ".#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input"}
+2020-03-15 14:46:08,879 - DEBUG - http://127.0.0.1:64729 "POST /session/6eb1e440a4334f056ab6d7422cb70aeb/element HTTP/1.1" 400 2060
+2020-03-15 14:46:08,879 - DEBUG - Finished Request
+2020-03-15 14:46:26,212 - DEBUG - Start of commandLineEmailer.py
+2020-03-15 14:46:26,212 - DEBUG - toEmail: maclachlan.paul@gmail.com
+2020-03-15 14:46:26,212 - DEBUG - toSubject: Subject
+2020-03-15 14:46:26,212 - DEBUG - toMessage: A message
+2020-03-15 14:46:27,229 - DEBUG - POST http://127.0.0.1:64806/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-15 14:46:27,230 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:64806
+2020-03-15 14:46:28,568 - DEBUG - http://127.0.0.1:64806 "POST /session HTTP/1.1" 200 690
+2020-03-15 14:46:28,569 - DEBUG - Finished Request
+2020-03-15 14:46:28,569 - DEBUG - POST http://127.0.0.1:64806/session/cc158a25db9ab6405fa22c2024b24b4f/url {"url": "https://accounts.google.com"}
+2020-03-15 14:46:29,689 - DEBUG - http://127.0.0.1:64806 "POST /session/cc158a25db9ab6405fa22c2024b24b4f/url HTTP/1.1" 200 14
+2020-03-15 14:46:29,690 - DEBUG - Finished Request
+2020-03-15 14:46:29,690 - DEBUG - POST http://127.0.0.1:64806/session/cc158a25db9ab6405fa22c2024b24b4f/element {"using": "css selector", "value": "[name=\"identifier\"]"}
+2020-03-15 14:46:29,753 - DEBUG - http://127.0.0.1:64806 "POST /session/cc158a25db9ab6405fa22c2024b24b4f/element HTTP/1.1" 200 88
+2020-03-15 14:46:29,753 - DEBUG - Finished Request
+2020-03-15 14:46:29,754 - DEBUG - POST http://127.0.0.1:64806/session/cc158a25db9ab6405fa22c2024b24b4f/element/a1006394-297c-4dbb-b9b6-226923ee3ca6/value {"text": "maclachlan.paul@gmail.com", "value": ["m", "a", "c", "l", "a", "c", "h", "l", "a", "n", ".", "p", "a", "u", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "a1006394-297c-4dbb-b9b6-226923ee3ca6"}
+2020-03-15 14:46:30,258 - DEBUG - http://127.0.0.1:64806 "POST /session/cc158a25db9ab6405fa22c2024b24b4f/element/a1006394-297c-4dbb-b9b6-226923ee3ca6/value HTTP/1.1" 200 14
+2020-03-15 14:46:30,258 - DEBUG - Finished Request
+2020-03-15 14:46:30,259 - DEBUG - POST http://127.0.0.1:64806/session/cc158a25db9ab6405fa22c2024b24b4f/element {"using": "css selector", "value": "#identifierNext > span > span"}
+2020-03-15 14:46:30,270 - DEBUG - http://127.0.0.1:64806 "POST /session/cc158a25db9ab6405fa22c2024b24b4f/element HTTP/1.1" 200 88
+2020-03-15 14:46:30,271 - DEBUG - Finished Request
+2020-03-15 14:46:30,271 - DEBUG - POST http://127.0.0.1:64806/session/cc158a25db9ab6405fa22c2024b24b4f/element/14a3c64f-08e8-4182-8343-f9dc6d17a5f3/click {"id": "14a3c64f-08e8-4182-8343-f9dc6d17a5f3"}
+2020-03-15 14:46:30,446 - DEBUG - http://127.0.0.1:64806 "POST /session/cc158a25db9ab6405fa22c2024b24b4f/element/14a3c64f-08e8-4182-8343-f9dc6d17a5f3/click HTTP/1.1" 200 14
+2020-03-15 14:46:30,447 - DEBUG - Finished Request
+2020-03-15 14:46:30,447 - DEBUG - POST http://127.0.0.1:64806/session/cc158a25db9ab6405fa22c2024b24b4f/element {"using": "css selector", "value": ".#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input"}
+2020-03-15 14:46:30,486 - DEBUG - http://127.0.0.1:64806 "POST /session/cc158a25db9ab6405fa22c2024b24b4f/element HTTP/1.1" 400 2060
+2020-03-15 14:46:30,486 - DEBUG - Finished Request
+2020-03-15 14:49:36,504 - DEBUG - Start of commandLineEmailer.py
+2020-03-15 14:49:36,504 - DEBUG - toEmail: maclachlan.paul@gmail.com
+2020-03-15 14:49:36,504 - DEBUG - toSubject: Subject
+2020-03-15 14:49:36,504 - DEBUG - toMessage: A message
+2020-03-15 14:49:37,518 - DEBUG - POST http://127.0.0.1:65476/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-15 14:49:37,519 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:65476
+2020-03-15 14:49:38,703 - DEBUG - http://127.0.0.1:65476 "POST /session HTTP/1.1" 200 690
+2020-03-15 14:49:38,704 - DEBUG - Finished Request
+2020-03-15 14:49:38,704 - DEBUG - POST http://127.0.0.1:65476/session/b869bc256d0963a34cdc6a1232b98479/url {"url": "https://accounts.google.com"}
+2020-03-15 14:49:40,025 - DEBUG - http://127.0.0.1:65476 "POST /session/b869bc256d0963a34cdc6a1232b98479/url HTTP/1.1" 200 14
+2020-03-15 14:49:40,025 - DEBUG - Finished Request
+2020-03-15 14:49:40,025 - DEBUG - POST http://127.0.0.1:65476/session/b869bc256d0963a34cdc6a1232b98479/element {"using": "css selector", "value": "[name=\"identifier\"]"}
+2020-03-15 14:49:40,078 - DEBUG - http://127.0.0.1:65476 "POST /session/b869bc256d0963a34cdc6a1232b98479/element HTTP/1.1" 200 88
+2020-03-15 14:49:40,078 - DEBUG - Finished Request
+2020-03-15 14:49:40,079 - DEBUG - POST http://127.0.0.1:65476/session/b869bc256d0963a34cdc6a1232b98479/element/cb98f354-fa96-4d1e-9b80-f57caa64e2e4/value {"text": "maclachlan.paul@gmail.com", "value": ["m", "a", "c", "l", "a", "c", "h", "l", "a", "n", ".", "p", "a", "u", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "cb98f354-fa96-4d1e-9b80-f57caa64e2e4"}
+2020-03-15 14:49:40,520 - DEBUG - http://127.0.0.1:65476 "POST /session/b869bc256d0963a34cdc6a1232b98479/element/cb98f354-fa96-4d1e-9b80-f57caa64e2e4/value HTTP/1.1" 200 14
+2020-03-15 14:49:40,520 - DEBUG - Finished Request
+2020-03-15 14:49:40,521 - DEBUG - POST http://127.0.0.1:65476/session/b869bc256d0963a34cdc6a1232b98479/element {"using": "css selector", "value": "#identifierNext > span > span"}
+2020-03-15 14:49:40,533 - DEBUG - http://127.0.0.1:65476 "POST /session/b869bc256d0963a34cdc6a1232b98479/element HTTP/1.1" 200 88
+2020-03-15 14:49:40,534 - DEBUG - Finished Request
+2020-03-15 14:49:40,534 - DEBUG - POST http://127.0.0.1:65476/session/b869bc256d0963a34cdc6a1232b98479/element/adcd7804-d2bc-429d-b272-41259d5fd8df/click {"id": "adcd7804-d2bc-429d-b272-41259d5fd8df"}
+2020-03-15 14:49:40,677 - DEBUG - http://127.0.0.1:65476 "POST /session/b869bc256d0963a34cdc6a1232b98479/element/adcd7804-d2bc-429d-b272-41259d5fd8df/click HTTP/1.1" 200 14
+2020-03-15 14:49:40,677 - DEBUG - Finished Request
+2020-03-15 14:49:40,678 - DEBUG - POST http://127.0.0.1:65476/session/b869bc256d0963a34cdc6a1232b98479/element {"using": "css selector", "value": "#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input"}
+2020-03-15 14:49:40,714 - DEBUG - http://127.0.0.1:65476 "POST /session/b869bc256d0963a34cdc6a1232b98479/element HTTP/1.1" 404 1896
+2020-03-15 14:49:40,714 - DEBUG - Finished Request
+2020-03-15 14:50:36,054 - DEBUG - Start of commandLineEmailer.py
+2020-03-15 14:50:36,054 - DEBUG - toEmail: maclachlan.paul@gmail.com
+2020-03-15 14:50:36,054 - DEBUG - toSubject: Subject
+2020-03-15 14:50:36,055 - DEBUG - toMessage: A message
+2020-03-15 14:50:37,074 - DEBUG - POST http://127.0.0.1:49255/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-15 14:50:37,075 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:49255
+2020-03-15 14:50:38,649 - DEBUG - http://127.0.0.1:49255 "POST /session HTTP/1.1" 200 690
+2020-03-15 14:50:38,650 - DEBUG - Finished Request
+2020-03-15 14:50:38,650 - DEBUG - POST http://127.0.0.1:49255/session/8bc200b95a8c841e7bfedf4f65413cf4/url {"url": "https://accounts.google.com"}
+2020-03-15 14:50:40,265 - DEBUG - http://127.0.0.1:49255 "POST /session/8bc200b95a8c841e7bfedf4f65413cf4/url HTTP/1.1" 200 14
+2020-03-15 14:50:40,266 - DEBUG - Finished Request
+2020-03-15 14:50:40,266 - DEBUG - POST http://127.0.0.1:49255/session/8bc200b95a8c841e7bfedf4f65413cf4/element {"using": "css selector", "value": "[name=\"identifier\"]"}
+2020-03-15 14:50:40,300 - DEBUG - http://127.0.0.1:49255 "POST /session/8bc200b95a8c841e7bfedf4f65413cf4/element HTTP/1.1" 200 88
+2020-03-15 14:50:40,301 - DEBUG - Finished Request
+2020-03-15 14:50:40,301 - DEBUG - POST http://127.0.0.1:49255/session/8bc200b95a8c841e7bfedf4f65413cf4/element/8359dd22-5398-4cb0-81ce-131200f0edbf/value {"text": "maclachlan.paul@gmail.com", "value": ["m", "a", "c", "l", "a", "c", "h", "l", "a", "n", ".", "p", "a", "u", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "8359dd22-5398-4cb0-81ce-131200f0edbf"}
+2020-03-15 14:50:41,165 - DEBUG - http://127.0.0.1:49255 "POST /session/8bc200b95a8c841e7bfedf4f65413cf4/element/8359dd22-5398-4cb0-81ce-131200f0edbf/value HTTP/1.1" 200 14
+2020-03-15 14:50:41,166 - DEBUG - Finished Request
+2020-03-15 14:50:41,166 - DEBUG - POST http://127.0.0.1:49255/session/8bc200b95a8c841e7bfedf4f65413cf4/element {"using": "css selector", "value": "#identifierNext > span > span"}
+2020-03-15 14:50:41,189 - DEBUG - http://127.0.0.1:49255 "POST /session/8bc200b95a8c841e7bfedf4f65413cf4/element HTTP/1.1" 200 88
+2020-03-15 14:50:41,190 - DEBUG - Finished Request
+2020-03-15 14:50:41,190 - DEBUG - POST http://127.0.0.1:49255/session/8bc200b95a8c841e7bfedf4f65413cf4/element/e6da220f-41b0-4a92-b110-e9d402ae70e5/click {"id": "e6da220f-41b0-4a92-b110-e9d402ae70e5"}
+2020-03-15 14:50:41,375 - DEBUG - http://127.0.0.1:49255 "POST /session/8bc200b95a8c841e7bfedf4f65413cf4/element/e6da220f-41b0-4a92-b110-e9d402ae70e5/click HTTP/1.1" 200 14
+2020-03-15 14:50:41,376 - DEBUG - Finished Request
+2020-03-15 14:50:41,376 - DEBUG - POST http://127.0.0.1:49255/session/8bc200b95a8c841e7bfedf4f65413cf4/element {"using": "xpath", "value": "//*[@id=\"password\"]/div[1]/div/div[1]/input"}
+2020-03-15 14:50:41,445 - DEBUG - http://127.0.0.1:49255 "POST /session/8bc200b95a8c841e7bfedf4f65413cf4/element HTTP/1.1" 404 1879
+2020-03-15 14:50:41,445 - DEBUG - Finished Request
+2020-03-15 14:52:21,264 - DEBUG - Start of commandLineEmailer.py
+2020-03-15 14:52:21,264 - DEBUG - toEmail: maclachlan.paul@gmail.com
+2020-03-15 14:52:21,264 - DEBUG - toSubject: Subject
+2020-03-15 14:52:21,264 - DEBUG - toMessage: A message
+2020-03-15 14:52:22,281 - DEBUG - POST http://127.0.0.1:49698/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-15 14:52:22,282 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:49698
+2020-03-15 14:52:23,433 - DEBUG - http://127.0.0.1:49698 "POST /session HTTP/1.1" 200 690
+2020-03-15 14:52:23,434 - DEBUG - Finished Request
+2020-03-15 14:52:23,434 - DEBUG - POST http://127.0.0.1:49698/session/43ec70666df677630dbc49d5d7cfc0b1/url {"url": "https://accounts.google.com"}
+2020-03-15 14:52:24,552 - DEBUG - http://127.0.0.1:49698 "POST /session/43ec70666df677630dbc49d5d7cfc0b1/url HTTP/1.1" 200 14
+2020-03-15 14:52:24,552 - DEBUG - Finished Request
+2020-03-15 14:52:24,553 - DEBUG - POST http://127.0.0.1:49698/session/43ec70666df677630dbc49d5d7cfc0b1/element {"using": "css selector", "value": "[name=\"identifier\"]"}
+2020-03-15 14:52:24,643 - DEBUG - http://127.0.0.1:49698 "POST /session/43ec70666df677630dbc49d5d7cfc0b1/element HTTP/1.1" 200 88
+2020-03-15 14:52:24,644 - DEBUG - Finished Request
+2020-03-15 14:52:24,644 - DEBUG - POST http://127.0.0.1:49698/session/43ec70666df677630dbc49d5d7cfc0b1/element/43750f1f-0558-488e-a396-5ffeacdab6ca/value {"text": "maclachlan.paul@gmail.com", "value": ["m", "a", "c", "l", "a", "c", "h", "l", "a", "n", ".", "p", "a", "u", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "43750f1f-0558-488e-a396-5ffeacdab6ca"}
+2020-03-15 14:52:25,159 - DEBUG - http://127.0.0.1:49698 "POST /session/43ec70666df677630dbc49d5d7cfc0b1/element/43750f1f-0558-488e-a396-5ffeacdab6ca/value HTTP/1.1" 200 14
+2020-03-15 14:52:25,159 - DEBUG - Finished Request
+2020-03-15 14:52:25,160 - DEBUG - POST http://127.0.0.1:49698/session/43ec70666df677630dbc49d5d7cfc0b1/element {"using": "css selector", "value": "#identifierNext > span > span"}
+2020-03-15 14:52:25,171 - DEBUG - http://127.0.0.1:49698 "POST /session/43ec70666df677630dbc49d5d7cfc0b1/element HTTP/1.1" 200 88
+2020-03-15 14:52:25,171 - DEBUG - Finished Request
+2020-03-15 14:52:25,171 - DEBUG - POST http://127.0.0.1:49698/session/43ec70666df677630dbc49d5d7cfc0b1/element/0ba1fc26-315d-46a0-8e08-8a52ebc157b9/click {"id": "0ba1fc26-315d-46a0-8e08-8a52ebc157b9"}
+2020-03-15 14:52:25,345 - DEBUG - http://127.0.0.1:49698 "POST /session/43ec70666df677630dbc49d5d7cfc0b1/element/0ba1fc26-315d-46a0-8e08-8a52ebc157b9/click HTTP/1.1" 200 14
+2020-03-15 14:52:25,346 - DEBUG - Finished Request
+2020-03-15 14:52:25,346 - DEBUG - POST http://127.0.0.1:49698/session/43ec70666df677630dbc49d5d7cfc0b1/element {"using": "xpath", "value": "//*[@id='password']/div[1]/div/div[1]/input"}
+2020-03-15 14:52:25,375 - DEBUG - http://127.0.0.1:49698 "POST /session/43ec70666df677630dbc49d5d7cfc0b1/element HTTP/1.1" 404 1877
+2020-03-15 14:52:25,376 - DEBUG - Finished Request
+2020-03-15 14:54:44,100 - DEBUG - Start of commandLineEmailer.py
+2020-03-15 14:54:44,100 - DEBUG - toEmail: maclachlan.paul@gmail.com
+2020-03-15 14:54:44,100 - DEBUG - toSubject: Subject
+2020-03-15 14:54:44,100 - DEBUG - toMessage: A message
+2020-03-15 14:54:45,114 - DEBUG - POST http://127.0.0.1:49727/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-15 14:54:45,115 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:49727
+2020-03-15 14:54:46,302 - DEBUG - http://127.0.0.1:49727 "POST /session HTTP/1.1" 200 690
+2020-03-15 14:54:46,303 - DEBUG - Finished Request
+2020-03-15 14:54:46,303 - DEBUG - POST http://127.0.0.1:49727/session/efec9a1db07a86568dcd14017bbcb95a/url {"url": "https://accounts.google.com"}
+2020-03-15 14:54:47,682 - DEBUG - http://127.0.0.1:49727 "POST /session/efec9a1db07a86568dcd14017bbcb95a/url HTTP/1.1" 200 14
+2020-03-15 14:54:47,683 - DEBUG - Finished Request
+2020-03-15 14:54:47,683 - DEBUG - POST http://127.0.0.1:49727/session/efec9a1db07a86568dcd14017bbcb95a/element {"using": "css selector", "value": "[name=\"identifier\"]"}
+2020-03-15 14:54:47,839 - DEBUG - http://127.0.0.1:49727 "POST /session/efec9a1db07a86568dcd14017bbcb95a/element HTTP/1.1" 200 88
+2020-03-15 14:54:47,839 - DEBUG - Finished Request
+2020-03-15 14:54:47,839 - DEBUG - POST http://127.0.0.1:49727/session/efec9a1db07a86568dcd14017bbcb95a/element/55a6804f-c386-4108-b5b4-4b654f2050d7/value {"text": "maclachlan.paul@gmail.com", "value": ["m", "a", "c", "l", "a", "c", "h", "l", "a", "n", ".", "p", "a", "u", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "55a6804f-c386-4108-b5b4-4b654f2050d7"}
+2020-03-15 14:54:48,169 - DEBUG - http://127.0.0.1:49727 "POST /session/efec9a1db07a86568dcd14017bbcb95a/element/55a6804f-c386-4108-b5b4-4b654f2050d7/value HTTP/1.1" 200 14
+2020-03-15 14:54:48,169 - DEBUG - Finished Request
+2020-03-15 14:54:48,170 - DEBUG - POST http://127.0.0.1:49727/session/efec9a1db07a86568dcd14017bbcb95a/element {"using": "css selector", "value": "#identifierNext > span > span"}
+2020-03-15 14:54:48,181 - DEBUG - http://127.0.0.1:49727 "POST /session/efec9a1db07a86568dcd14017bbcb95a/element HTTP/1.1" 200 88
+2020-03-15 14:54:48,181 - DEBUG - Finished Request
+2020-03-15 14:54:48,182 - DEBUG - POST http://127.0.0.1:49727/session/efec9a1db07a86568dcd14017bbcb95a/element/f765ca15-076c-47bb-8789-dfc5419504da/click {"id": "f765ca15-076c-47bb-8789-dfc5419504da"}
+2020-03-15 14:54:48,379 - DEBUG - http://127.0.0.1:49727 "POST /session/efec9a1db07a86568dcd14017bbcb95a/element/f765ca15-076c-47bb-8789-dfc5419504da/click HTTP/1.1" 200 14
+2020-03-15 14:54:48,380 - DEBUG - Finished Request
+2020-03-15 14:54:48,380 - DEBUG - POST http://127.0.0.1:49727/session/efec9a1db07a86568dcd14017bbcb95a/timeouts {"implicit": 4000}
+2020-03-15 14:54:48,382 - DEBUG - http://127.0.0.1:49727 "POST /session/efec9a1db07a86568dcd14017bbcb95a/timeouts HTTP/1.1" 200 14
+2020-03-15 14:54:48,382 - DEBUG - Finished Request
+2020-03-15 14:54:48,382 - DEBUG - POST http://127.0.0.1:49727/session/efec9a1db07a86568dcd14017bbcb95a/element {"using": "xpath", "value": "//*[@id='password']/div[1]/div/div[1]/input"}
+2020-03-15 14:54:48,671 - DEBUG - http://127.0.0.1:49727 "POST /session/efec9a1db07a86568dcd14017bbcb95a/element HTTP/1.1" 200 88
+2020-03-15 14:54:48,671 - DEBUG - Finished Request
+2020-03-15 14:54:48,671 - DEBUG - POST http://127.0.0.1:49727/session/efec9a1db07a86568dcd14017bbcb95a/element/7de4ef29-61c7-4421-b59c-78c8a8738e70/value {"text": "Livewell123!", "value": ["L", "i", "v", "e", "w", "e", "l", "l", "1", "2", "3", "!"], "id": "7de4ef29-61c7-4421-b59c-78c8a8738e70"}
+2020-03-15 14:54:49,074 - DEBUG - http://127.0.0.1:49727 "POST /session/efec9a1db07a86568dcd14017bbcb95a/element/7de4ef29-61c7-4421-b59c-78c8a8738e70/value HTTP/1.1" 200 14
+2020-03-15 14:54:49,075 - DEBUG - Finished Request
+2020-03-15 14:54:49,075 - DEBUG - POST http://127.0.0.1:49727/session/efec9a1db07a86568dcd14017bbcb95a/element {"using": "css selector", "value": "#passwordNext > span > span"}
+2020-03-15 14:54:49,088 - DEBUG - http://127.0.0.1:49727 "POST /session/efec9a1db07a86568dcd14017bbcb95a/element HTTP/1.1" 200 88
+2020-03-15 14:54:49,089 - DEBUG - Finished Request
+2020-03-15 14:54:49,089 - DEBUG - POST http://127.0.0.1:49727/session/efec9a1db07a86568dcd14017bbcb95a/element/a0c1cc82-94b5-40ed-9398-7cb6ba1c6537/click {"id": "a0c1cc82-94b5-40ed-9398-7cb6ba1c6537"}
+2020-03-15 14:54:49,345 - DEBUG - http://127.0.0.1:49727 "POST /session/efec9a1db07a86568dcd14017bbcb95a/element/a0c1cc82-94b5-40ed-9398-7cb6ba1c6537/click HTTP/1.1" 200 14
+2020-03-15 14:54:49,346 - DEBUG - Finished Request
+2020-03-15 14:54:49,346 - DEBUG - End of commandLineEmailer.py
+2020-03-15 15:03:29,753 - DEBUG - Start of commandLineEmailer.py
+2020-03-15 15:03:29,753 - DEBUG - toEmail: maclachlan.paul@gmail.com
+2020-03-15 15:03:29,753 - DEBUG - toSubject: Subject
+2020-03-15 15:03:29,753 - DEBUG - toMessage: A message
+2020-03-15 15:03:30,770 - DEBUG - POST http://127.0.0.1:49764/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-03-15 15:03:30,771 - DEBUG - Starting new HTTP connection (1): 127.0.0.1:49764
+2020-03-15 15:03:31,978 - DEBUG - http://127.0.0.1:49764 "POST /session HTTP/1.1" 200 690
+2020-03-15 15:03:31,979 - DEBUG - Finished Request
+2020-03-15 15:03:31,980 - DEBUG - POST http://127.0.0.1:49764/session/bf6b40467c6c3c19b071c939a863ec69/url {"url": "https://accounts.google.com"}
+2020-03-15 15:03:33,187 - DEBUG - http://127.0.0.1:49764 "POST /session/bf6b40467c6c3c19b071c939a863ec69/url HTTP/1.1" 200 14
+2020-03-15 15:03:33,188 - DEBUG - Finished Request
+2020-03-15 15:03:33,188 - DEBUG - POST http://127.0.0.1:49764/session/bf6b40467c6c3c19b071c939a863ec69/element {"using": "css selector", "value": "[name=\"identifier\"]"}
+2020-03-15 15:03:33,268 - DEBUG - http://127.0.0.1:49764 "POST /session/bf6b40467c6c3c19b071c939a863ec69/element HTTP/1.1" 200 88
+2020-03-15 15:03:33,269 - DEBUG - Finished Request
+2020-03-15 15:03:33,269 - DEBUG - POST http://127.0.0.1:49764/session/bf6b40467c6c3c19b071c939a863ec69/element/3a87f4a5-f76f-4844-ab5d-96f74b8c4db9/value {"text": "maclachlan.paul@gmail.com", "value": ["m", "a", "c", "l", "a", "c", "h", "l", "a", "n", ".", "p", "a", "u", "l", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "3a87f4a5-f76f-4844-ab5d-96f74b8c4db9"}
+2020-03-15 15:03:33,744 - DEBUG - http://127.0.0.1:49764 "POST /session/bf6b40467c6c3c19b071c939a863ec69/element/3a87f4a5-f76f-4844-ab5d-96f74b8c4db9/value HTTP/1.1" 200 14
+2020-03-15 15:03:33,745 - DEBUG - Finished Request
+2020-03-15 15:03:33,745 - DEBUG - POST http://127.0.0.1:49764/session/bf6b40467c6c3c19b071c939a863ec69/element {"using": "css selector", "value": "#identifierNext > span > span"}
+2020-03-15 15:03:33,756 - DEBUG - http://127.0.0.1:49764 "POST /session/bf6b40467c6c3c19b071c939a863ec69/element HTTP/1.1" 200 88
+2020-03-15 15:03:33,756 - DEBUG - Finished Request
+2020-03-15 15:03:33,756 - DEBUG - POST http://127.0.0.1:49764/session/bf6b40467c6c3c19b071c939a863ec69/element/20dac299-405e-49d0-88a9-3d1f29cece67/click {"id": "20dac299-405e-49d0-88a9-3d1f29cece67"}
+2020-03-15 15:03:33,919 - DEBUG - http://127.0.0.1:49764 "POST /session/bf6b40467c6c3c19b071c939a863ec69/element/20dac299-405e-49d0-88a9-3d1f29cece67/click HTTP/1.1" 200 14
+2020-03-15 15:03:33,919 - DEBUG - Finished Request
+2020-03-15 15:03:33,920 - DEBUG - POST http://127.0.0.1:49764/session/bf6b40467c6c3c19b071c939a863ec69/timeouts {"implicit": 4000}
+2020-03-15 15:03:33,921 - DEBUG - http://127.0.0.1:49764 "POST /session/bf6b40467c6c3c19b071c939a863ec69/timeouts HTTP/1.1" 200 14
+2020-03-15 15:03:33,922 - DEBUG - Finished Request
+2020-03-15 15:03:33,922 - DEBUG - POST http://127.0.0.1:49764/session/bf6b40467c6c3c19b071c939a863ec69/element {"using": "xpath", "value": "//*[@id='password']/div[1]/div/div[1]/input"}
+2020-03-15 15:03:34,185 - DEBUG - http://127.0.0.1:49764 "POST /session/bf6b40467c6c3c19b071c939a863ec69/element HTTP/1.1" 200 88
+2020-03-15 15:03:34,186 - DEBUG - Finished Request
+2020-03-15 15:03:34,187 - DEBUG - POST http://127.0.0.1:49764/session/bf6b40467c6c3c19b071c939a863ec69/element/ee4e1a94-23ad-4696-981a-83d3c1ab5d2f/value {"text": "Livewell123!", "value": ["L", "i", "v", "e", "w", "e", "l", "l", "1", "2", "3", "!"], "id": "ee4e1a94-23ad-4696-981a-83d3c1ab5d2f"}
+2020-03-15 15:03:34,596 - DEBUG - http://127.0.0.1:49764 "POST /session/bf6b40467c6c3c19b071c939a863ec69/element/ee4e1a94-23ad-4696-981a-83d3c1ab5d2f/value HTTP/1.1" 200 14
+2020-03-15 15:03:34,597 - DEBUG - Finished Request
+2020-03-15 15:03:34,597 - DEBUG - POST http://127.0.0.1:49764/session/bf6b40467c6c3c19b071c939a863ec69/element {"using": "css selector", "value": "#passwordNext > span > span"}
+2020-03-15 15:03:34,611 - DEBUG - http://127.0.0.1:49764 "POST /session/bf6b40467c6c3c19b071c939a863ec69/element HTTP/1.1" 200 88
+2020-03-15 15:03:34,611 - DEBUG - Finished Request
+2020-03-15 15:03:34,611 - DEBUG - POST http://127.0.0.1:49764/session/bf6b40467c6c3c19b071c939a863ec69/element/08d9babb-e5f4-4f6a-adae-2ec6de52d1fd/click {"id": "08d9babb-e5f4-4f6a-adae-2ec6de52d1fd"}
+2020-03-15 15:03:34,817 - DEBUG - http://127.0.0.1:49764 "POST /session/bf6b40467c6c3c19b071c939a863ec69/element/08d9babb-e5f4-4f6a-adae-2ec6de52d1fd/click HTTP/1.1" 200 14
+2020-03-15 15:03:34,818 - DEBUG - Finished Request
+2020-03-15 15:03:34,818 - DEBUG - End of commandLineEmailer.py
